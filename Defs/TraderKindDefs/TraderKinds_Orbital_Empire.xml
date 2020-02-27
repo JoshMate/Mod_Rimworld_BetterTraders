@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef>
+    <defName>Orbital_Empire</defName>
+    <label>imperial trader</label>
+    <commonality>1</commonality>
+    <orbital>true</orbital>
+    <faction>Empire</faction>
+    <permitRequiredForTrading>TradeOrbital</permitRequiredForTrading>
+    <stockGenerators>
+
+    <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>2000~4000</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>0~1</thingDefCountRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>5~10</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentSpacer</thingDef>
+        <countRange>10~15</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineUltratech</thingDef>
+        <countRange>30~50</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>MortarShell</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>20~40</countRange>
+      </li>
+
+      <!-- Drugs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+      </li>
+
+      <!-- Techprints -->
+      <li Class="StockGenerator_Techprints">
+        <countChances>
+          <li>
+            <count>1</count>
+            <chance>1</chance>
+          </li>
+        </countChances>
+      </li>
+
+      <!-- Weapons -->
+      <li Class="StockGenerator_WeaponsRanged">
+        <weaponTag>SpacerGun</weaponTag>
+        <countRange>3~6</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>PsychicWeapon</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+      </li>
+      <li Class="StockGenerator_WeaponsMelee">
+        <weaponTag>UltratechMelee</weaponTag>
+        <countRange>1~2</countRange>
+      </li>
+      <li Class="StockGenerator_WeaponsMelee">
+        <weaponTag>Bladelink</weaponTag>
+        <countRange>0~1</countRange>
+      </li>
+
+      <!-- Apparel -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>HiTechArmor</tradeTag>
+        <thingDefCountRange>2~4</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+      <li Class="StockGenerator_Clothes">
+        <apparelTag>Royal</apparelTag>
+        <countRange>10~16</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>PsychicApparel</tradeTag>
+        <thingDefCountRange>2~3</thingDefCountRange>
+      </li>
+
+      <!-- Implants -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>ImplantEmpireCommon</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>ImplantEmpireRoyal</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+      </li>
+
+      <!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+
+    </stockGenerators>
+  </TraderKindDef>
+
+</Defs>

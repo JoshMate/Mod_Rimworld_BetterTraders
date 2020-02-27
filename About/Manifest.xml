@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>BetterVanillaTraders</identifier>
+    <version>1.1.0</version>
+    <loadAfter>
+        <li>Core</li>
+    </loadAfter>
+    <showCrossPromotions>false</showCrossPromotions>
+    <manifestUri>NONE</manifestUri>
+    <downloadUri>NONE</downloadUri>
+</Manifest>

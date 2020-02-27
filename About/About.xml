@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Better Vanilla Traders</name>
+  <author>Josh Mate</author>
+  <packageId>JM.betterVanillaTraders</packageId>
+  <url></url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+<description>
+Makes all Caravans, Tradeships, Settlements and Visitors (at all tech levels) have exactly 2x (Double) the stock and silver to trade with. 
+(Does not affect the types of items for sale, or types of traders that appear.)
+</description>
+</ModMetaData>
