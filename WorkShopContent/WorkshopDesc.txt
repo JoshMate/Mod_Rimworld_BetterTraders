@@ -1,20 +1,21 @@
-[h1]Updated to version 1.1 with optional Royalty support![h1]
+[h1]This mod has been rebuilt from the ground up for Version 1.1 and the Royalty DLC[/h1]
 
 [h1]What? [/h1]
-Improves the quality and variances of all traders in Rimworld while still keeping the vanilla trader feel.
+- Makes all trader types have roughly double (+100%) the goods for sale.
+- Makes all traders types have double the silver, increasing the amount they can buy from you.
 
 [h1]How? [/h1]
-Makes all Caravans, Trade ships, Settlements and Visitors have exactly 2x (Double) the stock of items and silver to trade with. 
+- By increasing the count variables in the traderKindDefs .xml files
 
 [h1]Why? [/h1]
-- Makes traders less predictable and stale by increasing the variety of what they have to offer.
-- Makes the late game trading more rewarding since others have more to offer you and have more silver to buy your 426 cloth armchairs.
-- Makes hot items like components and steel more available for purchase for those insanely large late game bases.
-- Doesn't affect balance to much, since you still have to pay for the extra items. However Silver is more useful now.
+- Traders will have more to offer you, making those huge late game bases more practical!
+- Increases the variance of what individual traders sell without straying from the vanilla stock lists.
+- Traders will be better equipped to buy your 427 thrumbo fur armchairs!
 
 [h1]Notes: [/h1]
 - Supports game version 1.1
 - Will also affect Empire traders if you have the Royalty DLC installed.
+- Was rebuilt with 1.1 and royalty base trade lists, so you won't miss out on anything new!
 - Affects all colony typeslevels (Neolithic, Outlander, Misc and Empire).
 - Does not affect the types of items for sale.
 - Does not affect the types of traders that appear.

@@ -9,15 +9,15 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>50~250</countRange>
+        <countRange>100~500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
-        <countRange>40~80</countRange>
+        <countRange>80~160</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineHerbal</thingDef>
-        <countRange>1~4</countRange>
+        <countRange>2~8</countRange>
       </li>
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
@@ -31,14 +31,14 @@
         <categoryDef>Drugs</categoryDef>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <thingDefCountRange>-1~1</thingDefCountRange>
-        <totalPriceRange>200~400</totalPriceRange>
+        <totalPriceRange>400~800</totalPriceRange>
       </li>
       
       <!-- Techprints -->
       <li Class="StockGenerator_Techprints">
         <countChances>
           <li>
-            <count>1</count>
+            <count>2</count>
             <chance>0.5</chance>
           </li>
         </countChances>
@@ -47,17 +47,17 @@
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>0~1</countRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <categoryDef>WeaponsMelee</categoryDef>
-        <countRange>0~1</countRange>
+        <countRange>1~2</countRange>
       </li>
       
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
-        <countRange>0~1</countRange>
+        <countRange>1~2</countRange>
       </li>
       
       <!-- Implants -->
