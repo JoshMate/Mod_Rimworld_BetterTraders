@@ -1,20 +1,23 @@
-[h1]This mod has been rebuilt from the ground up for Version 1.1 and the Royalty DLC[/h1]
+[h1]This mod has been rebuilt from the ground up for 1.1[/h1]
 
 [h1]What? [/h1]
 - Makes all trader types have roughly double (+100%) the goods for sale.
 - Makes all traders types have double the silver, increasing the amount they can buy from you.
 
 [h1]How? [/h1]
-- By increasing the count variables in the traderKindDefs .xml files
+- By increasing the count variables in the traderKindDefs .xml files.
+- Simple xml changes make this mod VERY compatible with other mods!
 
 [h1]Why? [/h1]
 - Traders will have more to offer you, making those huge late game bases more practical!
 - Increases the variance of what individual traders sell without straying from the vanilla stock lists.
 - Traders will be better equipped to buy your 427 thrumbo fur armchairs!
+- Doesn't make the game wildly unbalanced like x10 would, and rare trader items are still rare.
 
 [h1]Notes: [/h1]
 - Supports game version 1.1
-- Will also affect Empire traders if you have the Royalty DLC installed.
+- Supports game version 1.0
+- Supports DLC Royalty
 - Was rebuilt with 1.1 and royalty base trade lists, so you won't miss out on anything new!
 - Affects all colony typeslevels (Neolithic, Outlander, Misc and Empire).
 - Does not affect the types of items for sale.

@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>Better Traders</name>
   <author>Josh Mate</author>
-  <packageId>JM.betterVanillaTraders</packageId>
+  <packageId>JM.betterTraders</packageId>
   <url></url>
   <supportedVersions>
     <li>1.0</li>
