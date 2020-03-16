@@ -69,7 +69,8 @@
       <!-- Buildings -->
       <li Class="StockGenerator_Category">
         <categoryDef>BuildingsFurniture</categoryDef>
-        <countRange>5</countRange>
+        <thingDefCountRange>5</thingDefCountRange>
+        <countRange>1</countRange>
       </li>
       
       <!-- Exotic -->
@@ -240,6 +241,7 @@
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
+        <kindCountRange>1</kindCountRange>
         <countRange>10</countRange>
       </li>
 
