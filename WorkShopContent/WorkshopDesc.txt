@@ -36,6 +36,6 @@ Sells a consistently large amount of Ultra tech, weapons, armour and and end gam
 - Traders prices / frequency / relations are still the same.
 - Only affects the traders stock lists not factions, quest rewards or anything else regarding items.
 - This technically makes the game easier as items can be bought in bigger quantities.
-- Requires 1.1 and Royalty DLC.
 - Highly compatible as it just TraderDefs xml edits.
+- Will work without Royalty, but you may get errors.
 
