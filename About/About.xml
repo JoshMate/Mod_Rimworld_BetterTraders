@@ -5,10 +5,7 @@
   <packageId>JM.betterTraders</packageId>
   <url></url>
   <supportedVersions>
-    <li>1.0</li>
     <li>1.1</li>
   </supportedVersions>
-<description>
-All traders will have roughly double the silver and goods for offer.
-</description>
+<description>A full overhaul of the Rimworld traders.</description>
 </ModMetaData>
