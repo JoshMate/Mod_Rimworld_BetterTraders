@@ -64,19 +64,19 @@
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
         <weaponTag>SpacerGun</weaponTag>
-        <countRange>10</countRange>
+        <countRange>12</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicWeapon</tradeTag>
-        <thingDefCountRange>2</thingDefCountRange>
+        <thingDefCountRange>3</thingDefCountRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>UltratechMelee</weaponTag>
-        <countRange>2</countRange>
+        <countRange>3</countRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>Bladelink</weaponTag>
-        <countRange>2</countRange>
+        <countRange>3</countRange>
       </li>
 
       <!-- Apparel -->

@@ -65,15 +65,15 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicWeapon</tradeTag>
-        <thingDefCountRange>1</thingDefCountRange>
+        <thingDefCountRange>2</thingDefCountRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>UltratechMelee</weaponTag>
-        <countRange>1</countRange>
+        <countRange>2</countRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>Bladelink</weaponTag>
-        <countRange>1</countRange>
+        <countRange>2</countRange>
       </li>
 
       <!-- Apparel -->
