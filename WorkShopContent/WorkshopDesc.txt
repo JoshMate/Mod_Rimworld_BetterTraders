@@ -1,27 +1,33 @@
-[h1]This mod has been rebuilt from the ground up for 1.1[/h1]
+[h1]Description[/h1]
+A full overhaul of the Rimworld traders. Changes all types of traders to have more consistent personalities and ultimately have more useful items for sale.
+It does it by splitting the trader types into 4 new types which have different stock depnding on the type of faction and type of interaction. 
 
-[h1]What? [/h1]
-- Makes all trader types have roughly double (+100%) the goods for sale.
-- Makes all traders types have double the silver, increasing the amount they can buy from you.
+[h1Tader Personalities[/h1]
 
-[h1]How? [/h1]
-- By increasing the countRange variables in the traderKindDefs .xml files.
-- Simple xml changes make this mod VERY compatible with other mods!
+[h2]Constructuon Trader[/h2]
+Sells a consistently large amount of building resources like steel, wood, components and stone etc...
 
-[h1]Why? [/h1]
-- Traders will have more to offer you, making those huge late game bases more practical!
-- Increases the variance of what individual traders sell without straying from the vanilla stock lists.
-- Traders will be better equipped to buy your 427 thrumbo fur armchairs!
-- Doesn't make the game wildly unbalanced like x10 would, and rare trader items are still rare.
+[h2]Provisions Trader[/h2]
+Sells a consistently large amount of Food, raw ingredients, animals and medcine etc...
 
-[h1]Notes: [/h1]
-- Supports game version 1.1
-- Supports game version 1.0
-- Supports DLC Royalty
-- Was rebuilt with 1.1 and royalty base trade lists, so you won't miss out on anything new!
-- Affects all colony typeslevels (Neolithic, Outlander, Misc and Empire).
-- Does not affect the types of items for sale.
-- Does not affect the types of traders that appear.
-- Does not affect What traders will buy from you.
-- Does not affect prices.
-- Incompatible with other mods that change the "TraderKindDefs" XML files (So not many).
+[h2]Equipment Trader[/h2]
+Sells a consistently large amount of weapons, armour, clothes and mortar shells etc...
+
+[h2]Black Market Trader[/h2]
+Sells a consistently large amount of slaves, drugs, exotic items, art and body parts etc...
+
+
+[h1]Trader Types[/h1]
+
+[h2]Interactions[/h2]
+Visitors:   500 Silver, 10% stock capacity 0 Personalities.
+Caravan:    5,000 Silver, 100% stock capacity 1 Personalities.
+Orbital:    10,000 Silver, 200% stock capacity 1 Personalities.
+Settlement: 15,000 Silver, 100% stock capacity 4 Personalities.
+
+[h2]Factions[/h2]
+Tribes:         neolithic and early game items (Bows, herbs, tribal clothes and sword etc...)
+Outlanders:     Industrial and mid game items (Medicine, Assault rifles, bionics etc...)    
+Empire:         Ultra tech and end game items (Marine armour, pulse weapons, glitterworld tech, etc...)    
+
+
