@@ -118,6 +118,18 @@
         <thingDefCountRange>3</thingDefCountRange>
         <countRange>1</countRange>
       </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>ExoticMisc</tradeTag>
+        <thingDefCountRange>5</thingDefCountRange>
+        <countRange>2</countRange>
+        <excludedThingDefs>
+          <li>Luciferium</li>
+          <li>MedicineUltratech</li>
+          <li>ComponentIndustrial</li>
+          <li>Hyperweave</li>
+          <li>ComponentSpacer</li>
+        </excludedThingDefs>
+      </li>
       
       <!-- Slaves -->
 

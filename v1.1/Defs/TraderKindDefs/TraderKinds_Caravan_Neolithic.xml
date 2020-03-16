@@ -57,7 +57,7 @@
       <!-- Buildings -->
       <li Class="StockGenerator_Category">
         <categoryDef>BuildingsFurniture</categoryDef>
-        <thingDefCountRange>5</thingDefCountRange>
+        <thingDefCountRange>10</thingDefCountRange>
         <countRange>1</countRange>
       </li>
       

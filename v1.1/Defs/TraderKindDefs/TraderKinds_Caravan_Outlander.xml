@@ -69,7 +69,7 @@
       <!-- Buildings -->
       <li Class="StockGenerator_Category">
         <categoryDef>BuildingsFurniture</categoryDef>
-        <thingDefCountRange>5</thingDefCountRange>
+        <thingDefCountRange>10</thingDefCountRange>
         <countRange>1</countRange>
       </li>
       
@@ -328,6 +328,19 @@
         <thingDefCountRange>3</thingDefCountRange>
         <countRange>1</countRange>
       </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>ExoticMisc</tradeTag>
+        <thingDefCountRange>5</thingDefCountRange>
+        <countRange>2</countRange>
+        <excludedThingDefs>
+          <li>Luciferium</li>
+          <li>MedicineUltratech</li>
+          <li>ComponentIndustrial</li>
+          <li>Hyperweave</li>
+          <li>ComponentSpacer</li>
+        </excludedThingDefs>
+      </li>
+    
       
       <!-- Slaves -->
       <li Class="StockGenerator_Slaves">
