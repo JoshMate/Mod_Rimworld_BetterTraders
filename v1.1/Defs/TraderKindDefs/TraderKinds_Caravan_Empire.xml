@@ -135,6 +135,17 @@
 
       <!-- Animals -->
 
+      <!-- Buying Categories-->
+      <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>BuildingsFurniture</categoryDef>
+      </li>
+
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
       <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>

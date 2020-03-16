@@ -1,35 +1,31 @@
 [h1]Description[/h1]
-A full overhaul of the Rimworld traders. Changes all types of traders to have more consistent personalities and ultimately have more useful items for sale.
-It does it by splitting the trader types into 4 new types which have different stock depnding on the type of faction and type of interaction. 
-The amount of stock and silver all traders have to trade with has been incresed by about 300% from vanilla levels.
+- A full overhaul of the Rimworld traders. 
+- Vanilla traders replaced by 4 new ones.
+- On average +300% more Silver and trader stock.
+- Balanced and true to vanilla + Royalty feel of Rimworld.
 
-[h1Tader Personalities[/h1]
-
-[h2]Constructuon Trader[/h2]
+[h3]Construction Trader[/h3]
 Sells a consistently large amount of building resources like steel, wood, components and stone etc...
 
-[h2]Provisions Trader[/h2]
-Sells a consistently large amount of Food, raw ingredients, animals and medcine etc...
+[h3]Provisions Trader[/h3]
+Sells a consistently large amount of Food, raw ingredients, animals and medicine etc...
 
-[h2]Equipment Trader[/h2]
+[h3]Equipment Trader[/h3]
 Sells a consistently large amount of weapons, armour, clothes and mortar shells etc...
 
-[h2]Black Market Trader[/h2]
+[h3]Black Market Trader[/h3]
 Sells a consistently large amount of slaves, drugs, exotic items, art and body parts etc...
 
+[h3]Trader Types[/h3]
+[b]Visitors:[/b] 500 Silver, 10% stock capacity 0 Personalities.
+[b]Caravan:[/b] 5,000 Silver, 100% stock capacity 1 Personalities.
+[b]Orbital:[/b] 10,000 Silver, 200% stock capacity 1 Personalities.
+[b]Settlement:[/b] 15,000 Silver, 100% stock capacity 4 Personalities.
 
-[h1]Trader Types[/h1]
-
-[h2]Interactions[/h2]
-Visitors:       500 Silver, 10% stock capacity 0 Personalities.
-Caravan:        5,000 Silver, 100% stock capacity 1 Personalities.
-Orbital:        10,000 Silver, 200% stock capacity 1 Personalities.
-Settlement:     15,000 Silver, 100% stock capacity 4 Personalities.
-
-[h2]Factions[/h2]
-Tribes:         Neolithic and early game items (Bows, Herbs, Tribal clothes and Swords etc...)
-Outlanders:     Industrial and mid game items (Medicine, Flak armour, Firearms, Bionics etc...)    
-Empire:         Ultra tech and end game items (Power armour, Pulse weapons, Glitterworld tech, etc...)    
+[h3]Factions[/h3]
+[b]Tribes:[/b] Neolithic and early game items (Bows, Herbs, Tribal clothes and Swords etc...)
+[b]Outlanders:[/b] Industrial and mid game items (Medicine, Flak armour, Firearms, Bionics etc...)    
+[b]Empire:[/b] Ultra tech and end game items (Power armour, Pulse weapons, Glitter world tech, etc...)    
 
 [h1]Notes[/h1]
 - Traders still sell the same coverage of items as vanilla + Royalty.
@@ -37,5 +33,5 @@ Empire:         Ultra tech and end game items (Power armour, Pulse weapons, Glit
 - Only affects the traders stock lists not factions, quest rewards or anything else regarding items.
 - This technically makes the game easier as items can be bought in bigger quantities.
 - Requires 1.1 and Royalty DLC.
-- Highly compatable as it just TraderDefs xml edits.
+- Highly compatible as it just TraderDefs xml edits.
 
