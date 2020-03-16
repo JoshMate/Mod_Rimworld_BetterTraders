@@ -133,7 +133,7 @@
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
-        <kindCountRange>3</kindCountRange>
+        <kindCountRange>6</kindCountRange>
         <countRange>30</countRange>
       </li>
 

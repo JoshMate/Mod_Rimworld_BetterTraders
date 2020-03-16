@@ -241,7 +241,7 @@
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
-        <kindCountRange>1</kindCountRange>
+        <kindCountRange>2</kindCountRange>
         <countRange>10</countRange>
       </li>
 
