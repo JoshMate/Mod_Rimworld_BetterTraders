@@ -106,6 +106,10 @@
       <!-- Implants -->
 
       <!-- Buildings -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>BuildingsFurniture</categoryDef>
+        <countRange>10</countRange>
+      </li>
       
       <!-- Exotic -->
       
@@ -128,8 +132,7 @@
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
-        <kindCountRange>4</kindCountRange>
-        <countRange>5</countRange>
+        <countRange>30</countRange>
       </li>
 
       <!-- Resources -->

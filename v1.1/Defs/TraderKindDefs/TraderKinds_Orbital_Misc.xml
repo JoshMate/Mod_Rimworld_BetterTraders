@@ -3,11 +3,10 @@
 
   <TraderKindDef>
     <defName>Orbital_BulkGoods</defName>
-    <label>resource trader</label>
+    <label>construction trader</label>
     <orbital>true</orbital>
     <stockGenerators>
       
-
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
@@ -69,6 +68,10 @@
       <!-- Implants -->
 
       <!-- Buildings -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>BuildingsFurniture</categoryDef>
+        <countRange>10</countRange>
+      </li>
       
       <!-- Exotic -->
       
@@ -132,10 +135,6 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Shell_Firefoam</thingDef>
         <countRange>40</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Shell_AntigrainWarhead</thingDef>
-        <countRange>1</countRange>
       </li>
 
       <!-- Apparel -->
@@ -246,8 +245,7 @@
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
-        <kindCountRange>5</kindCountRange>
-        <countRange>10</countRange>
+        <countRange>15</countRange>
       </li>
 
       <!-- Buying -->

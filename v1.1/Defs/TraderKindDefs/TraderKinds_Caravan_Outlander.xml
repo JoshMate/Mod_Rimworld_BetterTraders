@@ -3,7 +3,7 @@
 
   <TraderKindDef>
     <defName>Caravan_Outlander_BulkGoods</defName>
-    <label>resource trader</label>
+    <label>construction trader</label>
     <stockGenerators>
       
       <!-- Resources -->
@@ -67,6 +67,10 @@
       <!-- Implants -->
 
       <!-- Buildings -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>BuildingsFurniture</categoryDef>
+        <countRange>5</countRange>
+      </li>
       
       <!-- Exotic -->
       
@@ -128,10 +132,6 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Shell_Firefoam</thingDef>
         <countRange>20</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Shell_AntigrainWarhead</thingDef>
-        <countRange>1</countRange>
       </li>
 
       <!-- Apparel -->
@@ -240,8 +240,7 @@
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
-        <kindCountRange>3</kindCountRange>
-        <countRange>5</countRange>
+        <countRange>10</countRange>
       </li>
 
       <!-- Buying -->
