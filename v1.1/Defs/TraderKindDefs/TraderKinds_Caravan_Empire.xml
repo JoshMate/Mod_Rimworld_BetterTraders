@@ -25,27 +25,27 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Plasteel</thingDef>
-        <counte>500</count>
+        <count>500</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Uranium</thingDef>
-        <counte>500</count>
+        <count>500</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <counte>500</count>
+        <count>500</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Synthread</thingDef>
-        <counte>100</count>
+        <count>100</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Hyperweave</thingDef>
-        <counte>100</count>
+        <count>100</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineUltratech</thingDef>
-        <counte>25</count>
+        <count>25</count>
       </li>
       
       <!-- Drugs -->

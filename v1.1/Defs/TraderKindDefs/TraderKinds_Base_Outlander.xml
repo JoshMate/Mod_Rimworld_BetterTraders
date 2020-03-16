@@ -20,39 +20,39 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
-        <counte>250</count>
+        <count>250</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chemfuel</thingDef>
-        <counte>500</count>
+        <count>500</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
-        <counte>1500</count>
+        <count>1500</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
-        <counte>1500</count>
+        <count>1500</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Plasteel</thingDef>
-        <counte>500</count>
+        <count>500</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Uranium</thingDef>
-        <counte>500</count>
+        <count>500</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <counte>250</count>
+        <count>250</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Jade</thingDef>
-        <counte>250</count>
+        <count>250</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
-        <counte>1500</count>
+        <count>1500</count>
       </li>
 
       <!-- Resources -->
@@ -73,23 +73,23 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Shell_HighExplosive</thingDef>
-        <counte>20</count>
+        <count>20</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Shell_Incendiary</thingDef>
-        <counte>20</count>
+        <count>20</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Shell_EMP</thingDef>
-        <counte>20</count>
+        <count>20</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Shell_Firefoam</thingDef>
-        <counte>20</count>
+        <count>20</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Shell_AntigrainWarhead</thingDef>
-        <counte>1</count>
+        <count>1</count>
       </li>
 
       <!-- Apparel -->
@@ -121,7 +121,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
-        <counte>50</count>
+        <count>50</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chocolate</thingDef>
