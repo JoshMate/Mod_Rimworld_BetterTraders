@@ -11,32 +11,20 @@
         <countRange>15000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Neutroamine</thingDef>
-        <countRange>250</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Chemfuel</thingDef>
-        <countRange>500</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Steel</thingDef>
-        <countRange>1500</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
-        <countRange>1500</countRange>
+        <countRange>3000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <countRange>250</countRange>
+        <countRange>500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Jade</thingDef>
-        <countRange>250</countRange>
+        <countRange>500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
-        <countRange>1500</countRange>
+        <countRange>3000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>DevilstrandCloth</thingDef>
@@ -201,7 +189,7 @@
       
       <!-- Slaves -->
       <li Class="StockGenerator_Slaves">
-        <countRange>4</countRange>
+        <countRange>6</countRange>
       </li>
       
       <!-- Buying Categories-->

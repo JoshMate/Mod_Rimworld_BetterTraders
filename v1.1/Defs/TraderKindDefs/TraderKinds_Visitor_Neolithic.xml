@@ -50,6 +50,7 @@
 
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <countRange>2</countRange>
       </li>
 

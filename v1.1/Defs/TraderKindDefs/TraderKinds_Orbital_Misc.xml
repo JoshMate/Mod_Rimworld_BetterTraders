@@ -33,10 +33,6 @@
         <countRange>3000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>WoodLog</thingDef>
-        <countRange>3000</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
         <thingDef>Plasteel</thingDef>
         <countRange>1000</countRange>
       </li>
@@ -46,10 +42,6 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <countRange>500</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Jade</thingDef>
         <countRange>500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
