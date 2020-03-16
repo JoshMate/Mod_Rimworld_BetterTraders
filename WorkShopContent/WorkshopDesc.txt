@@ -3,6 +3,7 @@
 - Vanilla traders replaced by 4 new ones.
 - On average +300% more Silver and trader stock.
 - Balanced and true to vanilla + Royalty feel of Rimworld.
+- More items to buy, but not infinite. A Vanilla+ Feel.
 
 [h3]Construction Trader[/h3]
 Sells a consistently large amount of building resources like steel, wood, components and stone etc...
