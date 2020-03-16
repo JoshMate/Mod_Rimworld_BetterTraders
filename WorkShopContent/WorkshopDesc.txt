@@ -5,7 +5,7 @@
 - Makes all traders types have double the silver, increasing the amount they can buy from you.
 
 [h1]How? [/h1]
-- By increasing the count variables in the traderKindDefs .xml files.
+- By increasing the countRange variables in the traderKindDefs .xml files.
 - Simple xml changes make this mod VERY compatible with other mods!
 
 [h1]Why? [/h1]

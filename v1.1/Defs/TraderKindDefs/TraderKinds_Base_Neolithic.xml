@@ -8,39 +8,39 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <count>15000</count>
+        <countRange>15000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
-        <count>250</count>
+        <countRange>250</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chemfuel</thingDef>
-        <count>500</count>
+        <countRange>500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
-        <count>1500</count>
+        <countRange>1500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
-        <count>1500</count>
+        <countRange>1500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <count>250</count>
+        <countRange>250</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Jade</thingDef>
-        <count>250</count>
+        <countRange>250</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
-        <count>1500</count>
+        <countRange>1500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>DevilstrandCloth</thingDef>
-        <count>300</count>
+        <countRange>300</countRange>
       </li>
 
       <!-- Resources -->
@@ -53,19 +53,19 @@
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <count>20</count>
+        <countRange>20</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>WeaponsMelee</categoryDef>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <thingDefCount>10</thingDefCount>
+        <thingDefCountRange>10</thingDefCountRange>
         <countRange>2</countRange>
       </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <count>25</count>
+        <countRange>25</countRange>
       </li>
 
       <!-- Resources -->
@@ -75,24 +75,24 @@
         <excludedCategories>
           <li>EggsFertilized</li>
         </excludedCategories>
-        <thingDefCount>5</thingDefCount>
-        <totalPrice>1500</totalPrice>
+        <thingDefCountRange>5</thingDefCountRange>
+        <totalPriceRange>1500</totalPriceRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
-        <count>1000</count>
+        <countRange>1000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineHerbal</thingDef>
-        <count>50</count>
+        <countRange>50</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chocolate</thingDef>
-        <count>100</count>
+        <countRange>100</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Hay</thingDef>
-        <count>1000</count>
+        <countRange>1000</countRange>
       </li>
             
       <!-- Drugs -->
@@ -128,8 +128,8 @@
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
-        <kindCount>4</kindCount>
-        <count>5</count>
+        <kindCountRange>4</kindCountRange>
+        <countRange>5</countRange>
       </li>
 
       <!-- Resources -->
@@ -139,15 +139,15 @@
 
       <li Class="StockGenerator_SingleDef">
         <thingDef>Beer</thingDef>
-        <count>100</count>
+        <countRange>100</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PsychiteTea</thingDef>
-        <count>100</count>
+        <countRange>100</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>SmokeleafJoint</thingDef>
-        <count>100</count>
+        <countRange>100</countRange>
       </li>
 
       <!-- Techprints -->
@@ -160,19 +160,19 @@
 
       <!-- Buildings -->
       <li Class="StockGenerator_Art">
-        <count>10</count>
+        <countRange>10</countRange>
       </li>
       
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCount>6</thingDefCount>
-        <count>1</count>
+        <thingDefCountRange>6</thingDefCountRange>
+        <countRange>1</countRange>
       </li>
       
       <!-- Slaves -->
       <li Class="StockGenerator_Slaves">
-        <count>4</count>
+        <countRange>4</countRange>
       </li>
       
       <!-- Buying -->

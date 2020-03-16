@@ -14,39 +14,39 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <count>10000</count>
+        <countRange>10000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-        <count>80</count>
+        <countRange>80</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
-        <count>40</count>
+        <countRange>40</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Plasteel</thingDef>
-        <count>1000</count>
+        <countRange>1000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Uranium</thingDef>
-        <count>1000</count>
+        <countRange>1000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <count>1000</count>
+        <countRange>1000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Synthread</thingDef>
-        <count>200</count>
+        <countRange>200</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Hyperweave</thingDef>
-        <count>200</count>
+        <countRange>200</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineUltratech</thingDef>
-        <count>50</count>
+        <countRange>50</countRange>
       </li>
       
       <!-- Drugs -->
@@ -64,51 +64,51 @@
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
         <weaponTag>SpacerGun</weaponTag>
-        <count>10</count>
+        <countRange>10</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicWeapon</tradeTag>
-        <thingDefCount>2</thingDefCount>
+        <thingDefCountRange>2</thingDefCountRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>UltratechMelee</weaponTag>
-        <count>2</count>
+        <countRange>2</countRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>Bladelink</weaponTag>
-        <count>2</count>
+        <countRange>2</countRange>
       </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_Tag">
         <tradeTag>HiTechArmor</tradeTag>
-        <thingDefCount>10</thingDefCount>
-        <count>1</count>
+        <thingDefCountRange>10</thingDefCountRange>
+        <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_Clothes">
         <apparelTag>Royal</apparelTag>
-        <count>10</count>
+        <countRange>10</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicApparel</tradeTag>
-        <thingDefCount>10</thingDefCount>
+        <thingDefCountRange>10</thingDefCountRange>
       </li>
   
       <!-- Implants -->
       <li Class="StockGenerator_Tag">
         <tradeTag>TechHediff</tradeTag>
-        <thingDefCount>3</thingDefCount>
-        <count>1</count>
+        <thingDefCountRange>3</thingDefCountRange>
+        <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireCommon</tradeTag>
-        <thingDefCount>3</thingDefCount>
-        <count>1</count>
+        <thingDefCountRange>3</thingDefCountRange>
+        <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireRoyal</tradeTag>
-        <thingDefCount>3</thingDefCount>
-        <count>1</count>
+        <thingDefCountRange>3</thingDefCountRange>
+        <countRange>1</countRange>
       </li>
 
       <!-- Buildings -->
@@ -116,8 +116,8 @@
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCount>5</thingDefCount>
-        <count>1</count>
+        <thingDefCountRange>5</thingDefCountRange>
+        <countRange>1</countRange>
       </li>
       
       <!-- Slaves -->
