@@ -17,6 +17,9 @@ Sells a consistently large amount of weapons, armour, clothes and mortar shells 
 [h3]Black Market Trader[/h3]
 Sells a consistently large amount of slaves, drugs, exotic items, art and body parts etc...
 
+[h3]Empire Trader[/h3]
+Sells a consistently large amount of Ultra tech, weapons, armour and and end game items etc...
+
 [h3]Trader Types[/h3]
 [b]Visitors:[/b] 500 Silver, 10% stock capacity 0 Personalities.
 [b]Caravan:[/b] 5,000 Silver, 100% stock capacity 1 Personalities.
