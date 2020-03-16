@@ -1,59 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <TraderKindDef>
     <defName>Empire_Caravan_TraderGeneral</defName>
-    <label>imperial trader</label>
+    <label>empire trader</label>
     <commonality>1</commonality>
     <faction>Empire</faction>
     <permitRequiredForTrading>TradeCaravan</permitRequiredForTrading>
     <stockGenerators>
+      
 
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>1600~2400</countRange>
-      </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>ResourcesRaw</categoryDef>
-        <thingDefCountRange>1~2</thingDefCountRange>
+        <count>5000</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-        <countRange>6~14</countRange>
+        <count>40</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
-        <countRange>6~14</countRange>
+        <count>20</count>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Steel</thingDef>
-        <countRange>500~800</countRange>
+        <thingDef>Plasteel</thingDef>
+        <counte>500</count>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Cloth</thingDef>
-        <countRange>500~800</countRange>
+        <thingDef>Uranium</thingDef>
+        <counte>500</count>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <counte>500</count>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Synthread</thingDef>
+        <counte>100</count>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Hyperweave</thingDef>
+        <counte>100</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineUltratech</thingDef>
-        <countRange>16~32</countRange>
+        <counte>25</count>
       </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>MortarShell</tradeTag>
-        <thingDefCountRange>2~3</thingDefCountRange>
-        <countRange>20~40</countRange>
-      </li>
-
+      
       <!-- Drugs -->
-      <li Class="StockGenerator_Category">
-        <categoryDef>Drugs</categoryDef>
-      </li>
 
       <!-- Techprints -->
       <li Class="StockGenerator_Techprints">
         <countChances>
           <li>
-            <count>2</count>
+            <count>5</count>
             <chance>1</chance>
           </li>
         </countChances>
@@ -62,60 +63,76 @@
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
         <weaponTag>SpacerGun</weaponTag>
-        <countRange>2~6</countRange>
+        <count>5</count>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicWeapon</tradeTag>
-        <thingDefCountRange>2~4</thingDefCountRange>
+        <thingDefCount>1</thingDefCount>
+      </li>
+      <li Class="StockGenerator_WeaponsMelee">
+        <weaponTag>UltratechMelee</weaponTag>
+        <count>1</count>
+      </li>
+      <li Class="StockGenerator_WeaponsMelee">
+        <weaponTag>Bladelink</weaponTag>
+        <count>1</count>
       </li>
 
       <!-- Apparel -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>HiTechArmor</tradeTag>
+        <thingDefCount>5</thingDefCount>
+        <count>1</count>
+      </li>
       <li Class="StockGenerator_Clothes">
         <apparelTag>Royal</apparelTag>
-        <countRange>8~20</countRange>
+        <count>5</count>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicApparel</tradeTag>
-        <thingDefCountRange>4~6</thingDefCountRange>
+        <thingDefCount>5</thingDefCount>
       </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>HiTechArmor</tradeTag>
-        <thingDefCountRange>1~4</thingDefCountRange>
-      </li>
-
+  
       <!-- Implants -->
       <li Class="StockGenerator_Tag">
+        <tradeTag>TechHediff</tradeTag>
+        <thingDefCount>2</thingDefCount>
+        <count>1</count>
+      </li>
+      <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireCommon</tradeTag>
-        <thingDefCountRange>2~4</thingDefCountRange>
+        <thingDefCount>2</thingDefCount>
+        <count>1</count>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireRoyal</tradeTag>
-        <thingDefCountRange>2~4</thingDefCountRange>
+        <thingDefCount>2</thingDefCount>
+        <count>1</count>
       </li>
+
+      <!-- Buildings -->
+      
+      <!-- Exotic -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>Artifact</tradeTag>
+        <thingDefCount>3</thingDefCount>
+        <count>1</count>
+      </li>
+      
+      <!-- Slaves -->
+
+      <!-- Animals -->
 
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
       <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
-
-    </stockGenerators>
-  </TraderKindDef>
-
-  <TraderKindDef>
-    <defName>Empire_Caravan_TributeCollector</defName>
-    <label>royal tribute collector</label>
-    <requestable>False</requestable>
-    <commonality>1</commonality>
-    <category>TributeCollector</category>
-    <tradeCurrency>Favor</tradeCurrency>
-    <faction>Empire</faction>
-    <hideThingsNotWillingToTrade>True</hideThingsNotWillingToTrade>
-    <stockGenerators>
-      <!-- Buying -->
-      <li Class="StockGenerator_BuySlaves" />
-      <li Class="StockGenerator_BuySingleDef">
-        <thingDef>Gold</thingDef>
-      </li>
+      
+      
     </stockGenerators>
   </TraderKindDef>
 

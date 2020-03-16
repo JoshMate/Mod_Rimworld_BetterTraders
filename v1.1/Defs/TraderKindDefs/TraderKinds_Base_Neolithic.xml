@@ -8,138 +8,182 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>1600~6000</countRange>
+        <count>15000</count>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>ComponentIndustrial</thingDef>
-        <countRange>6~20</countRange>
+        <thingDef>Neutroamine</thingDef>
+        <counte>250</count>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chemfuel</thingDef>
+        <counte>500</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
-        <countRange>400~600</countRange>
+        <counte>1500</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
-        <countRange>1000~1200</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Cloth</thingDef>
-        <countRange>400~600</countRange>
+        <counte>1500</count>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <countRange>-80~240</countRange>
+        <counte>250</count>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Pemmican</thingDef>
-        <countRange>1000~2000</countRange>
+        <thingDef>Jade</thingDef>
+        <counte>250</count>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>MedicineHerbal</thingDef>
-        <countRange>30~60</countRange>
+        <thingDef>Cloth</thingDef>
+        <counte>1500</count>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>DevilstrandCloth</thingDef>
+        <counte>300</count>
+      </li>
+
+      <!-- Resources -->
+
+           
+      <!-- Drugs -->
+
+      <!-- Techprints -->
+
+      <!-- Weapons -->
+      <li Class="StockGenerator_WeaponsRanged">
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <count>20</count>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>Textiles</categoryDef>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <totalPriceRange>600~1400</totalPriceRange>
+        <categoryDef>WeaponsMelee</categoryDef>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCount>10</thingDefCount>
+        <countRange>2</countRange>
       </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>ResourcesRaw</categoryDef>
-        <thingDefCountRange>3~3</thingDefCountRange>
-        <totalPriceRange>400~1200</totalPriceRange>
+
+      <!-- Apparel -->
+      <li Class="StockGenerator_Clothes">
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <count>25</count>
       </li>
+
+      <!-- Resources -->
+
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
         <excludedCategories>
           <li>EggsFertilized</li>
         </excludedCategories>
-        <thingDefCountRange>3~5</thingDefCountRange>
-        <totalPriceRange>600~1600</totalPriceRange>
+        <thingDefCount>5</thingDefCount>
+        <totalPrice>1500</totalPrice>
       </li>
-      <li Class="StockGenerator_MultiDef">
-        <thingDefs>
-          <li>Chocolate</li>
-          <li>Kibble</li>
-        </thingDefs>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Pemmican</thingDef>
+        <count>1000</count>
       </li>
-      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <counte>50</count>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chocolate</thingDef>
+        <count>100</count>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Hay</thingDef>
+        <count>1000</count>
+      </li>
+            
       <!-- Drugs -->
-      <li Class="StockGenerator_Category">
-        <categoryDef>Drugs</categoryDef>
-        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <totalPriceRange>800~1200</totalPriceRange>
-      </li>
-      
+
       <!-- Techprints -->
-      <li Class="StockGenerator_Techprints">
-        <countChances>
-          <li>
-            <count>4</count>
-            <chance>0.5</chance>
-          </li>
-          <li>
-            <count>6</count>
-            <chance>0.5</chance>
-          </li>
-        </countChances>
-      </li>
-      
-      <!-- Weapons-->
-      <li Class="StockGenerator_WeaponsRanged">
-        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>4~8</countRange>
-      </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>WeaponsMelee</categoryDef>
-        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <thingDefCountRange>4~8</thingDefCountRange>
-        <countRange>1~3</countRange>
-      </li>
-      
-      <!-- Apparel-->
-      <li Class="StockGenerator_Clothes">
-        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>8~24</countRange>
-      </li>
-      
+
+      <!-- Weapons -->
+    
+      <!-- Apparel -->
+        
       <!-- Implants -->
-      <!-- none -->
-      
+
       <!-- Buildings -->
-      <!-- none -->
-
+      
       <!-- Exotic -->
-      <li Class="StockGenerator_Tag">
-        <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>1~6</thingDefCountRange>
-        <countRange>1~1</countRange>
-      </li>
-
+      
       <!-- Slaves -->
-      <li Class="StockGenerator_Slaves">
-        <respectPopulationIntent>true</respectPopulationIntent>
-        <countRange>-2~4</countRange>
-      </li>
 
       <!-- Animals -->
       <li Class="StockGenerator_Animals">
-        <maxWildness>0.70</maxWildness>
+        <checkTemperature>false</checkTemperature>
         <tradeTagsSell>
           <li>AnimalFarm</li>
           <li>AnimalPet</li>
+          <li>AnimalFighter</li>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
         </tradeTagsSell>
         <tradeTagsBuy>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
-        <kindCountRange>4~8</kindCountRange>
-        <countRange>2~6</countRange>
+        <kindCount>4</kindCount>
+        <count>5</count>
       </li>
 
+      <!-- Resources -->
+
+            
+      <!-- Drugs -->
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Beer</thingDef>
+        <count>100</count>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PsychiteTea</thingDef>
+        <count>100</count>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>SmokeleafJoint</thingDef>
+        <count>100</count>
+      </li>
+
+      <!-- Techprints -->
+
+      <!-- Weapons -->
+    
+      <!-- Apparel -->
+        
+      <!-- Implants -->
+
+      <!-- Buildings -->
+      <li Class="StockGenerator_Art">
+        <count>10</count>
+      </li>
+      
+      <!-- Exotic -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>Artifact</tradeTag>
+        <thingDefCount>6</thingDefCount>
+        <count>1</count>
+      </li>
+      
+      <!-- Slaves -->
+      <li Class="StockGenerator_Slaves">
+        <count>4</count>
+      </li>
+      
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
       <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      
       
     </stockGenerators>
   </TraderKindDef>
