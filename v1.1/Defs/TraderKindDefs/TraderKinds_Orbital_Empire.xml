@@ -116,32 +116,32 @@
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>4</thingDefCountRange>
+        <thingDefCountRange>5</thingDefCountRange>
         <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>Neurotrainers</tradeTag>
-        <thingDefCountRange>4</thingDefCountRange>
+        <thingDefCountRange>5</thingDefCountRange>
         <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>NeurotrainersPsycast</tradeTag>
-        <thingDefCountRange>4</thingDefCountRange>
+        <thingDefCountRange>5</thingDefCountRange>
         <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>BodyParts</tradeTag>
-        <thingDefCountRange>4</thingDefCountRange>
+        <thingDefCountRange>5</thingDefCountRange>
         <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>BodyPartsNatural</tradeTag>
-        <thingDefCountRange>4</thingDefCountRange>
+        <thingDefCountRange>5</thingDefCountRange>
         <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ExoticMisc</tradeTag>
-        <thingDefCountRange>4</thingDefCountRange>
+        <thingDefCountRange>5</thingDefCountRange>
         <countRange>1</countRange>
         <excludedThingDefs>
           <li>Luciferium</li>
