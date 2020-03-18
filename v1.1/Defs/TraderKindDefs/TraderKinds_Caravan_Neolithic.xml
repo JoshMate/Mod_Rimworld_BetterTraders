@@ -65,7 +65,8 @@
       <!-- Buildings -->
       <li Class="StockGenerator_Category">
         <categoryDef>BuildingsFurniture</categoryDef>
-        <thingDefCountRange>10</thingDefCountRange>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>5</thingDefCountRange>
         <countRange>1</countRange>
       </li>
       
@@ -80,19 +81,16 @@
         <categoryDef>Textiles</categoryDef>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>Drugs</categoryDef>
+        <categoryDef>BuildingsFurniture</categoryDef>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>BuildingsFurniture</categoryDef>
+        <categoryDef>ResourcesRaw</categoryDef>
       </li>
 
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
       <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
       
       
@@ -144,25 +142,10 @@
 
       <!-- Animals -->
 
-      <!-- Buying Categories-->
-      <li Class="StockGenerator_Category">
-        <categoryDef>Textiles</categoryDef>
-      </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>Drugs</categoryDef>
-      </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>BuildingsFurniture</categoryDef>
-      </li>
-
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
       <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
       
       
     </stockGenerators>
@@ -170,26 +153,53 @@
 
   <!--======================================================================================-->
 
-    <TraderKindDef>
-    <defName>Caravan_Neolithic_ShamanMerchant</defName>
+     <TraderKindDef>
+    <defName>Orbital_Exotic</defName>
     <label>provisions trader</label>
+    <orbital>true</orbital>
     <stockGenerators>
       
+
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>5000</countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>FoodRaw</categoryDef>
-        <excludedCategories>
-          <li>EggsFertilized</li>
-        </excludedCategories>
-        <thingDefCountRange>5</thingDefCountRange>
-        <totalPriceRange>1500</totalPriceRange>
+        <categoryDef>MeatRaw</categoryDef>
+        <thingDefCountRange>3</thingDefCountRange>
+        <countRange>500</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>PlantFoodRaw</categoryDef>
+        <thingDefCountRange>3</thingDefCountRange>
+        <countRange>500</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>animal products</categoryDef>
+        <thingDefCountRange>2</thingDefCountRange>
+        <countRange>100</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>EggsFertilized</categoryDef>
+        <thingDefCountRange>1</thingDefCountRange>
+        <countRange>25</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>EggsUnfertilized</categoryDef>
+        <thingDefCountRange>1</thingDefCountRange>
+        <countRange>50</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Kibble</thingDef>
+        <countRange>1000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
+        <countRange>1000</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Hay</thingDef>
         <countRange>1000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -200,14 +210,7 @@
         <thingDef>Chocolate</thingDef>
         <countRange>100</countRange>
       </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Hay</thingDef>
-        <countRange>1000</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Kibble</thingDef>
-        <countRange>1000</countRange>
-      </li>
+      
             
       <!-- Drugs -->
 
@@ -242,29 +245,26 @@
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
-        <kindCountRange>4</kindCountRange>
-        <countRange>20</countRange>
+        <kindCountRange>5</kindCountRange>
+        <countRange>25</countRange>
       </li>
 
       <!-- Buying Categories-->
       <li Class="StockGenerator_Category">
-        <categoryDef>Textiles</categoryDef>
+        <categoryDef>FoodRaw</categoryDef>
       </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>Drugs</categoryDef>
-      </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>BuildingsFurniture</categoryDef>
+      <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>Kibble</li>
+          <li>Chocolate</li>
+          <li>Pemmican</li>
+          <li>Hay</li>
+        </thingDefs>
       </li>
 
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
       <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
       
       
     </stockGenerators>
@@ -315,7 +315,7 @@
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>6</thingDefCountRange>
+        <thingDefCountRange>8</thingDefCountRange>
         <countRange>1</countRange>
       </li>
       
@@ -329,13 +329,7 @@
 
       <!-- Buying Categories-->
       <li Class="StockGenerator_Category">
-        <categoryDef>Textiles</categoryDef>
-      </li>
-      <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
-      </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>BuildingsFurniture</categoryDef>
       </li>
 
       <!-- Buying -->
