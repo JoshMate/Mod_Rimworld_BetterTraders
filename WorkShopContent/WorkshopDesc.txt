@@ -37,5 +37,6 @@ Sells a consistently large amount of Ultra tech, weapons, armour and and end gam
 - Only affects the traders stock lists not factions, quest rewards or anything else regarding items.
 - This technically makes the game easier as items can be bought in bigger quantities.
 - Highly compatible as it just TraderDefs xml edits.
-- Will work without Royalty, but you may get errors.
+- Will work without Royalty, but you will just have to dismiss the load up error.
+- Can be installed and uninstalled at any time without the need for a new colony.
 
