@@ -176,7 +176,7 @@
         <countRange>500</countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>animal products</categoryDef>
+        <categoryDef>AnimalProduct</categoryDef>
         <thingDefCountRange>2</thingDefCountRange>
         <countRange>100</countRange>
       </li>
