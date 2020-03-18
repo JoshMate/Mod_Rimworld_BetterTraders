@@ -114,35 +114,16 @@
       <!-- Buildings -->
       
       <!-- Exotic -->
+      <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>5</thingDefCountRange>
-        <countRange>1</countRange>
-      </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>Neurotrainers</tradeTag>
-        <thingDefCountRange>5</thingDefCountRange>
-        <countRange>1</countRange>
-      </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>NeurotrainersPsycast</tradeTag>
-        <thingDefCountRange>5</thingDefCountRange>
-        <countRange>1</countRange>
-      </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>BodyParts</tradeTag>
-        <thingDefCountRange>5</thingDefCountRange>
-        <countRange>1</countRange>
-      </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>BodyPartsNatural</tradeTag>
-        <thingDefCountRange>5</thingDefCountRange>
+        <thingDefCountRange>8</thingDefCountRange>
         <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ExoticMisc</tradeTag>
-        <thingDefCountRange>5</thingDefCountRange>
-        <countRange>1</countRange>
+        <thingDefCountRange>8</thingDefCountRange>
+        <countRange>2</countRange>
         <excludedThingDefs>
           <li>Luciferium</li>
           <li>MedicineUltratech</li>

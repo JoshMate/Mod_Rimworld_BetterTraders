@@ -115,32 +115,12 @@
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>3</thingDefCountRange>
-        <countRange>1</countRange>
-      </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>Neurotrainers</tradeTag>
-        <thingDefCountRange>3</thingDefCountRange>
-        <countRange>1</countRange>
-      </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>NeurotrainersPsycast</tradeTag>
-        <thingDefCountRange>3</thingDefCountRange>
-        <countRange>1</countRange>
-      </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>BodyParts</tradeTag>
-        <thingDefCountRange>3</thingDefCountRange>
-        <countRange>1</countRange>
-      </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>BodyPartsNatural</tradeTag>
-        <thingDefCountRange>3</thingDefCountRange>
+        <thingDefCountRange>4</thingDefCountRange>
         <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ExoticMisc</tradeTag>
-        <thingDefCountRange>3</thingDefCountRange>
+        <thingDefCountRange>8</thingDefCountRange>
         <countRange>1</countRange>
         <excludedThingDefs>
           <li>Luciferium</li>
@@ -191,6 +171,24 @@
       <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
       
       
+    </stockGenerators>
+  </TraderKindDef>
+
+  <TraderKindDef>
+    <defName>Empire_Caravan_TributeCollector</defName>
+    <label>royal tribute collector</label>
+    <requestable>False</requestable>
+    <commonality>1</commonality>
+    <category>TributeCollector</category>
+    <tradeCurrency>Favor</tradeCurrency>
+    <faction>Empire</faction>
+    <hideThingsNotWillingToTrade>True</hideThingsNotWillingToTrade>
+    <stockGenerators>
+      <!-- Buying -->
+      <li Class="StockGenerator_BuySlaves" />
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Gold</thingDef>
+      </li>
     </stockGenerators>
   </TraderKindDef>
 
