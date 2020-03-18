@@ -211,22 +211,24 @@
         <thingDefCountRange>3</thingDefCountRange>
         <countRange>1000</countRange>
       </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>AnimalProduct</categoryDef>
-        <thingDefCountRange>2</thingDefCountRange>
-        <countRange>200</countRange>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Milk</thingDef>
+        <countRange>400</countRange>
       </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>EggsFertilized</categoryDef>
-        <thingDefCountRange>1</thingDefCountRange>
-        <countRange>50</countRange>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>InsectJelly</thingDef>
+        <countRange>200</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>EggsUnfertilized</categoryDef>
         <thingDefCountRange>1</thingDefCountRange>
         <countRange>100</countRange>
       </li>
-
+      <li Class="StockGenerator_Category">
+        <categoryDef>EggsFertilized</categoryDef>
+        <thingDefCountRange>1</thingDefCountRange>
+        <countRange>50</countRange>
+      </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodMeals</categoryDef>
         <thingDefCountRange>5</thingDefCountRange>
