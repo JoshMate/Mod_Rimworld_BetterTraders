@@ -154,7 +154,7 @@
   <!--======================================================================================-->
 
      <TraderKindDef>
-    <defName>Caravan_Outlander_Exotic</defName>
+    <defName>Caravan_Neolithic_Exotic</defName>
     <label>provisions trader</label>
     <orbital>true</orbital>
     <stockGenerators>
