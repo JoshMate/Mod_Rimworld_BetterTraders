@@ -13,6 +13,10 @@
         <countRange>10000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        <thingDef>WoodLog</thingDef>
+        <countRange>3000</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
         <countRange>60</countRange>
       </li>

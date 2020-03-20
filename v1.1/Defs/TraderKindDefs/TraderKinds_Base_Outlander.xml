@@ -13,6 +13,10 @@
 
       <!-- Construction Trader -->
       <li Class="StockGenerator_SingleDef">
+        <thingDef>WoodLog</thingDef>
+        <countRange>1800</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
         <countRange>30</countRange>
       </li>
