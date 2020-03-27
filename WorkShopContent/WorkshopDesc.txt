@@ -1,35 +1,40 @@
 [h1]Description[/h1]
 - A full overhaul of the Rimworld traders. 
-- Vanilla traders replaced by 4 new ones.
+- Gives traders distinctive Personalities.
+- All vanilla traders replaced by new ones.
 - On average +300% more Silver and trader stock.
-- Balanced and true to vanilla + Royalty feel of Rimworld.
-- More items to buy, but not infinite. A Vanilla+ Feel.
 
 [h3]Construction Trader[/h3]
-Sells a consistently large amount of building resources like steel, wood, components and stone etc...
+Sells and buys a consistently large amount of building resources like steel, wood, components and stone etc...
 
 [h3]Provisions Trader[/h3]
-Sells a consistently large amount of Food, raw ingredients, animals and medicine etc...
+Sells and buys a consistently large amount of Food, raw ingredients, animals and medicine etc...
 
 [h3]Equipment Trader[/h3]
-Sells a consistently large amount of weapons, armour, clothes and mortar shells etc...
+Sells and buys a consistently large amount of weapons, armour, clothes and mortar shells etc...
 
 [h3]Black Market Trader[/h3]
-Sells a consistently large amount of slaves, drugs, exotic items, art and body parts etc...
+Sells and buys a consistently large amount of slaves, drugs, exotic items, art and body parts etc...
 
 [h3]Empire Trader[/h3]
-Sells a consistently large amount of Ultra tech, weapons, armour and and end game items etc...
+Sells and buys a consistently large amount of Ultra tech, weapons, armour, resources and end game items etc...
 
 [h3]Trader Types[/h3]
-[b]Visitors:[/b] 500 Silver, 10% stock capacity 0 Personalities.
-[b]Caravan:[/b] 5,000 Silver, 100% stock capacity 1 Personalities.
-[b]Orbital:[/b] 10,000 Silver, 200% stock capacity 1 Personalities.
-[b]Settlement:[/b] 15,000 Silver, 100% stock capacity 4 Personalities.
+[b]Visitors:[/b] 500 Silver, 10% stock capacity 1 Trader Personality at once.
+[b]Caravan:[/b] 5,000 Silver, 100% stock capacity 1 Trader Personality at once.
+[b]Orbital:[/b] 10,000 Silver, 200% stock capacity 1 Trader Personality at once.
+[b]Settlement:[/b] 15,000 Silver, 100% stock capacity all 4 Trader Personalities at once.
 
 [h3]Factions[/h3]
-[b]Tribes:[/b] Neolithic and early game items (Bows, Herbs, Tribal clothes and Swords etc...)
-[b]Outlanders:[/b] Industrial and mid game items (Medicine, Flak armour, Firearms, Bionics etc...)    
-[b]Empire:[/b] Ultra tech and end game items (Power armour, Pulse weapons, Glitter world tech, etc...)    
+[b]Tribes:[/b]
+Strength: Sells more natural items like animals, slaves, food, wood and stone.
+Weakness: Does not sell anything past neolithic tech.
+[b]Outlanders:[/b]
+Strength: Sells more modern tech items like guns, armour, steel, components and bodyparts.
+Weakness: Does not sell ultra tech or end game items.
+[b]Empire:[/b]   
+Strength: Sells ultra tech and end games items, weapons, armour and resources.
+Weakness: Does not trade basic items like wood, steel, food. 
 
 [h1]Notes[/h1]
 - Traders still sell the same coverage of items as vanilla + Royalty.

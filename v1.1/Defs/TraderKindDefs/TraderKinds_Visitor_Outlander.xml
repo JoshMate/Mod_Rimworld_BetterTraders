@@ -26,7 +26,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Beer</thingDef>
-        <countRange>6</countRange>
+        <countRange>10</countRange>
       </li>
       
       <!-- Drugs -->
@@ -66,10 +66,24 @@
         <categoryDef>Textiles</categoryDef>
       </li>
       <li Class="StockGenerator_Category">
+        <categoryDef>BuildingsFurniture</categoryDef>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+      </li>
+      <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>BuildingsFurniture</categoryDef>
+        <categoryDef>FoodRaw</categoryDef>
+      </li>
+      <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>Kibble</li>
+          <li>Chocolate</li>
+          <li>Pemmican</li>
+          <li>Hay</li>
+        </thingDefs>
       </li>
 
       <!-- Buying -->

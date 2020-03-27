@@ -12,17 +12,18 @@
       </li>
 
       <!-- Construction Trader -->
+      <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
-        <countRange>3000</countRange>
+        <countRange>5000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <countRange>500</countRange>
+        <countRange>1000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Jade</thingDef>
-        <countRange>500</countRange>
+        <countRange>1000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
@@ -34,76 +35,114 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>BlocksLimestone</thingDef>
-        <countRange>250</countRange>
+        <countRange>800</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>BlocksSlate</thingDef>
-        <countRange>250</countRange>
+        <countRange>800</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>BlocksMarble</thingDef>
-        <countRange>250</countRange>
+        <countRange>800</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>BlocksSandstone</thingDef>
-        <countRange>250</countRange>
+        <countRange>800</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>BlocksGranite</thingDef>
-        <countRange>250</countRange>
+        <countRange>800</countRange>
       </li>
+      
+      <!-- Drugs -->
+
+      <!-- Techprints -->
+
+      <!-- Weapons -->
+
+      <!-- Apparel -->
+  
+      <!-- Implants -->
+
+      <!-- Buildings -->
       <li Class="StockGenerator_Category">
         <categoryDef>BuildingsFurniture</categoryDef>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <thingDefCountRange>5</thingDefCountRange>
+        <thingDefCountRange>10</thingDefCountRange>
         <countRange>1</countRange>
       </li>
+      
+      <!-- Exotic -->
+      
+      <!-- Slaves -->
+
+      <!-- Animals -->
 
 
       <!-- Equipment Trader -->
-       <li Class="StockGenerator_WeaponsRanged">
+      <!-- Resources -->
+           
+      <!-- Drugs -->
+
+      <!-- Techprints -->
+
+      <!-- Weapons -->
+      <li Class="StockGenerator_WeaponsRanged">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>20</countRange>
+        <countRange>30</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>WeaponsMelee</categoryDef>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <thingDefCountRange>10</thingDefCountRange>
-        <countRange>2</countRange>
-      </li>
-      <li Class="StockGenerator_Clothes">
-        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>25</countRange>
+        <thingDefCountRange>30</thingDefCountRange>
+        <countRange>1</countRange>
       </li>
 
+      <!-- Apparel -->
+      <li Class="StockGenerator_Clothes">
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <countRange>30</countRange>
+      </li>
+  
+      <!-- Implants -->
+
+      <!-- Buildings -->
+      
+      <!-- Exotic -->
+      
+      <!-- Slaves -->
+
+      <!-- Animals -->
+
       <!-- Provision Trader -->
+      <!-- Resources -->
       <li Class="StockGenerator_Category">
         <categoryDef>MeatRaw</categoryDef>
-        <thingDefCountRange>3</thingDefCountRange>
+        <thingDefCountRange>4</thingDefCountRange>
         <countRange>500</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>PlantFoodRaw</categoryDef>
-        <thingDefCountRange>3</thingDefCountRange>
+        <thingDefCountRange>4</thingDefCountRange>
         <countRange>500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Milk</thingDef>
-        <countRange>200</countRange>
+        <countRange>300</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>InsectJelly</thingDef>
-        <countRange>100</countRange>
+        <countRange>300</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>EggsUnfertilized</categoryDef>
         <thingDefCountRange>1</thingDefCountRange>
-        <countRange>50</countRange>
+        <countRange>100</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>EggsFertilized</categoryDef>
         <thingDefCountRange>1</thingDefCountRange>
-        <countRange>25</countRange>
+        <countRange>50</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Kibble</thingDef>
@@ -123,8 +162,27 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chocolate</thingDef>
-        <countRange>100</countRange>
+        <countRange>200</countRange>
       </li>
+      
+            
+      <!-- Drugs -->
+
+      <!-- Techprints -->
+
+      <!-- Weapons -->
+    
+      <!-- Apparel -->
+        
+      <!-- Implants -->
+
+      <!-- Buildings -->
+      
+      <!-- Exotic -->
+      
+      <!-- Slaves -->
+
+      <!-- Animals -->
       <li Class="StockGenerator_Animals">
         <checkTemperature>false</checkTemperature>
         <tradeTagsSell>
@@ -141,35 +199,55 @@
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
-        <kindCountRange>5</kindCountRange>
-        <countRange>25</countRange>
+        <kindCountRange>6</kindCountRange>
+        <countRange>30</countRange>
       </li>
 
 
       <!-- Black Market Trader -->
+      <!-- Resources -->
+            
+      <!-- Drugs -->
+
       <li Class="StockGenerator_SingleDef">
         <thingDef>Beer</thingDef>
-        <countRange>100</countRange>
+        <countRange>150</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PsychiteTea</thingDef>
-        <countRange>100</countRange>
+        <countRange>150</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>SmokeleafJoint</thingDef>
-        <countRange>100</countRange>
+        <countRange>150</countRange>
       </li>
+
+      <!-- Techprints -->
+
+      <!-- Weapons -->
+    
+      <!-- Apparel -->
+        
+      <!-- Implants -->
+
+      <!-- Buildings -->
       <li Class="StockGenerator_Art">
         <countRange>10</countRange>
       </li>
+      
+      <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
         <thingDefCountRange>8</thingDefCountRange>
         <countRange>1</countRange>
       </li>
+      
+      <!-- Slaves -->
       <li Class="StockGenerator_Slaves">
-        <countRange>5</countRange>
+        <countRange>6</countRange>
       </li>
+
+      <!-- Animals -->
       
       
       <!-- Buying Categories-->
