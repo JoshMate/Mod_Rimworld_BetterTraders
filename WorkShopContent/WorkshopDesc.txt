@@ -20,7 +20,7 @@ Sells and buys a consistently large amount of slaves, drugs, exotic items, art a
 Sells and buys a consistently large amount of Ultra tech, weapons, armour, resources and end game items etc...
 
 [h3]Trader Types[/h3]
-[b]Visitors:[/b] 500 Silver, 10% stock capacity 1 Trader Personality at once.
+[b]Visitors:[/b] 500 Silver, 10% stock capacity 0 Trader Personality at once.
 [b]Caravan:[/b] 5,000 Silver, 100% stock capacity 1 Trader Personality at once.
 [b]Orbital:[/b] 10,000 Silver, 200% stock capacity 1 Trader Personality at once.
 [b]Settlement:[/b] 15,000 Silver, 100% stock capacity all 4 Trader Personalities at once.
