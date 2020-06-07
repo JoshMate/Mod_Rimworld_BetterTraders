@@ -21,11 +21,15 @@
         <countRange>100</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>SmokeleafJoint</thingDef>
+        <thingDef>PsychiteTea</thingDef>
         <countRange>10</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineHerbal</thingDef>
+        <countRange>10</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Beer</thingDef>
         <countRange>10</countRange>
       </li>
       

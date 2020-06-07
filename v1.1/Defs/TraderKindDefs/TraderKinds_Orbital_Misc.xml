@@ -252,6 +252,10 @@
         <thingDef>Penoxycyline</thingDef>
         <countRange>100</countRange>
       </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Beer</thingDef>
+        <countRange>100</countRange>
+      </li>
       
             
       <!-- Drugs -->

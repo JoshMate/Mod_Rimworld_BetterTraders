@@ -28,6 +28,10 @@
         <thingDef>Beer</thingDef>
         <countRange>10</countRange>
       </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>SmokeleafJoint</thingDef>
+        <countRange>10</countRange>
+      </li>
       
       <!-- Drugs -->
 

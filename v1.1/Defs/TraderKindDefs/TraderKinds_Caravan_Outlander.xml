@@ -250,6 +250,10 @@
         <thingDef>Penoxycyline</thingDef>
         <countRange>50</countRange>
       </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Beer</thingDef>
+        <countRange>50</countRange>
+      </li>
       
             
       <!-- Drugs -->
