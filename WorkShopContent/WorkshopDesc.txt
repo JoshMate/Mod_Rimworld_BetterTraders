@@ -5,8 +5,8 @@ Expand faster with more slaves, animals, weapons and food on sale at traders.
 Much easier to acquire the Neuro Trainers, Implants and psycasts you want ("I ASKED for this").
 
 [h1]Features[/h1]
-- Traders have alot more silver to buy your items with (See list below).
-- Traders have alot more items in stock to sell to you (About 3x more).
+- Traders have a lot more silver to buy your items with (See list below).
+- Traders have a lot more items in stock to sell to you (About 3x more).
 - Built from scratch using 1.2 Trader Defs so it is vanilla friendly / balanced.
 - Built from scratch using 1.2 Trader Defs so it includes all the new update items.
 

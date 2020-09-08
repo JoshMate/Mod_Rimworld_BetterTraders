@@ -5,7 +5,8 @@
   <packageId>JM.betterTraders</packageId>
   <url></url>
   <supportedVersions>
+	<li>1.1</li>
     <li>1.2</li>
   </supportedVersions>
-<description>Doubles Traders Stock and Silver.</description>
+<description>Traders now have: 3x Stock and much more silver.</description>
 </ModMetaData>
