@@ -5,7 +5,7 @@
   <packageId>JM.betterTraders</packageId>
   <url></url>
   <supportedVersions>
-    <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
-<description>A full overhaul of the Rimworld traders.</description>
+<description>Doubles Traders Stock and Silver.</description>
 </ModMetaData>

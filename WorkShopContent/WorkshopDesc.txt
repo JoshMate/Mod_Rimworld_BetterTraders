@@ -1,47 +1,25 @@
 [h1]Description[/h1]
-- A full overhaul of the Rimworld traders. 
-- Gives traders distinctive Personalities.
-- All vanilla traders replaced by new ones.
-- On average +300% more Silver and trader stock.
+- Traders have alot more silver to buy your items with.
+- Traders have alot more items in stock to sell to you.
+- Built from scratch using 1.2 Trader Defs so it is vanilla friendly / balanced.
+- Built from scratch using 1.2 Trader Defs so it includes all the new update items.
 
-[h3]Construction Trader[/h3]
-Sells and buys a consistently large amount of building resources like steel, wood, components and stone etc...
-
-[h3]Provisions Trader[/h3]
-Sells and buys a consistently large amount of Food, raw ingredients, animals and medicine etc...
-
-[h3]Equipment Trader[/h3]
-Sells and buys a consistently large amount of weapons, armour, clothes and mortar shells etc...
-
-[h3]Black Market Trader[/h3]
-Sells and buys a consistently large amount of slaves, drugs, exotic items, art and body parts etc...
-
-[h3]Empire Trader[/h3]
-Sells and buys a consistently large amount of Ultra tech, weapons, armour, resources and end game items etc...
-
-[h3]Trader Types[/h3]
-[b]Visitors:[/b] 500 Silver, 10% stock capacity 0 Trader Personality at once.
-[b]Caravan:[/b] 5,000 Silver, 100% stock capacity 1 Trader Personality at once.
-[b]Orbital:[/b] 10,000 Silver, 200% stock capacity 1 Trader Personality at once.
-[b]Settlement:[/b] 15,000 Silver, 100% stock capacity all 4 Trader Personalities at once.
-
-[h3]Factions[/h3]
-[b]Tribes:[/b]
-Strength: Sells more natural items like animals, slaves, food, wood and stone.
-Weakness: Does not sell anything past neolithic tech.
-[b]Outlanders:[/b]
-Strength: Sells more modern tech items like guns, armour, steel, components and bodyparts.
-Weakness: Does not sell ultra tech or end game items.
-[b]Empire:[/b]   
-Strength: Sells ultra tech and end games items, weapons, armour and resources.
-Weakness: Does not trade basic items like wood, steel, food. 
+[h3]Changes[/h3]
+[b]Visitors:[/b] 1,000 Silver
+[b]Caravan:[/b] 5,000 Silver
+[b]Orbital:[/b] 10,000 Silver
+[b]Settlement:[/b] 15,000 Silver
+[b]Stock Levels:[/b] 300%
 
 [h1]Notes[/h1]
-- Traders still sell the same coverage of items as vanilla + Royalty.
-- Traders prices / frequency / relations are still the same.
-- Only affects the traders stock lists not factions, quest rewards or anything else regarding items.
+- Traders prices / Trader Types / Trader frequency are unchanged.
 - This technically makes the game easier as items can be bought in bigger quantities.
-- Highly compatible as it just TraderDefs xml edits.
+- Highly compatible as it just TraderDefs.xml edits.
+- Safe to be added or removed from save games at anytime.
+- This also affects Slaves + Animals so traders will have more to sell you.
+
+[h1]DLC[/h1]
+- Full support for Vanilla.
+- Full support for Royalty.
 - Will work without Royalty, but you will just have to dismiss the load up error.
-- Can be installed and uninstalled at any time without the need for a new colony.
 

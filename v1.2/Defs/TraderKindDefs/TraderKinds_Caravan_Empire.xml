@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef>
+    <defName>Empire_Caravan_TraderGeneral</defName>
+    <label>imperial trader</label>
+    <commonality>1</commonality>
+    <faction>Empire</faction>
+    <permitRequiredForTrading>TradeCaravan</permitRequiredForTrading>
+    <stockGenerators>
+
+      <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>750~1200</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>0~1</thingDefCountRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>3~7</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentSpacer</thingDef>
+        <countRange>3~7</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Steel</thingDef>
+        <countRange>250~400</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Cloth</thingDef>
+        <countRange>250~400</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineUltratech</thingDef>
+        <countRange>8~16</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>MortarShell</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>10~20</countRange>
+      </li>
+
+      <!-- Drugs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+      </li>
+
+      <!-- Techprints -->
+      <li Class="StockGenerator_Techprints">
+        <countChances>
+          <li>
+            <count>1</count>
+            <chance>1</chance>
+          </li>
+        </countChances>
+      </li>
+
+      <!-- Weapons -->
+      <li Class="StockGenerator_WeaponsRanged">
+        <weaponTag>SpacerGun</weaponTag>
+        <countRange>1~3</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>PsychicWeapon</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Apparel -->
+      <li Class="StockGenerator_Clothes">
+        <apparelTag>Royal</apparelTag>
+        <countRange>4~10</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>PsychicApparel</tradeTag>
+        <thingDefCountRange>2~3</thingDefCountRange>
+        <countRange>1~3</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>HiTechArmor</tradeTag>
+        <thingDefCountRange>0~2</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Implants -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>ImplantEmpireCommon</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>ImplantEmpireRoyal</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
+
+    </stockGenerators>
+  </TraderKindDef>
+
+  <TraderKindDef>
+    <defName>Empire_Caravan_TributeCollector</defName>
+    <label>royal tribute collector</label>
+    <requestable>False</requestable>
+    <commonality>1</commonality>
+    <category>TributeCollector</category>
+    <tradeCurrency>Favor</tradeCurrency>
+    <faction>Empire</faction>
+    <hideThingsNotWillingToTrade>True</hideThingsNotWillingToTrade>
+    <stockGenerators>
+      <!-- Buying -->
+      <li Class="StockGenerator_BuySlaves" />
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Gold</thingDef>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+</Defs>
