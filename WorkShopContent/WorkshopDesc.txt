@@ -1,6 +1,12 @@
 [h1]Description[/h1]
-- Traders have alot more silver to buy your items with.
-- Traders have alot more items in stock to sell to you.
+Fuel your huge End-Game armies and bases with all the steel and components they need. 
+Finally Traders have enough to buy your 78 Masterwork Thrumbo Armchairs.
+Expand faster with more slaves, animals, weapons and food on sale at traders.
+Much easier to acquire the Neuro Trainers, Implants and psycasts you want ("I ASKED for this").
+
+[h1]Features[/h1]
+- Traders have alot more silver to buy your items with (See list below).
+- Traders have alot more items in stock to sell to you (About 3x more).
 - Built from scratch using 1.2 Trader Defs so it is vanilla friendly / balanced.
 - Built from scratch using 1.2 Trader Defs so it includes all the new update items.
 
@@ -9,14 +15,14 @@
 [b]Caravan:[/b] 5,000 Silver
 [b]Orbital:[/b] 10,000 Silver
 [b]Settlement:[/b] 15,000 Silver
-[b]Stock Levels:[/b] 300%
 
 [h1]Notes[/h1]
+- This also affects Human Slaves + Animals so traders will have more of them to sell you.
 - Traders prices / Trader Types / Trader frequency are unchanged.
 - This technically makes the game easier as items can be bought in bigger quantities.
 - Highly compatible as it just TraderDefs.xml edits.
 - Safe to be added or removed from save games at anytime.
-- This also affects Slaves + Animals so traders will have more to sell you.
+- If you have recently opened a trade menu with a trader, you will have to wait for them to restock to see the changes.
 
 [h1]DLC[/h1]
 - Full support for Vanilla.
