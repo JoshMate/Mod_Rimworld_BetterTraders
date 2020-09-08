@@ -112,8 +112,8 @@
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>6</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <thingDefCountRange>8</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
 
       <li MayRequire="Ludeon.RimWorld.Royalty" Class="StockGenerator_SingleDef">
@@ -139,7 +139,7 @@
           <li>AnimalExotic</li>
         </tradeTagsBuy>
         <kindCountRange>5</kindCountRange>
-        <countRange>5</countRange>
+        <countRange>15</countRange>
       </li>
 
       <!-- Buying -->

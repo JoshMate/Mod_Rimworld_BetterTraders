@@ -118,7 +118,7 @@
       <!-- Buildings -->
       <li Class="StockGenerator_Category">
         <categoryDef>BuildingsFurniture</categoryDef>
-        <thingDefCountRange>5</thingDefCountRange>
+        <thingDefCountRange>10</thingDefCountRange>
         <countRange>3</countRange>
       </li>
       
@@ -322,7 +322,7 @@
       <li Class="StockGenerator_Tag">
         <tradeTag>ExoticMisc</tradeTag>
         <thingDefCountRange>18</thingDefCountRange>
-        <countRange>1</countRange>
+        <countRange>1~2</countRange>
         <excludedThingDefs>
           <li>Luciferium</li> <!-- already handled by drugs -->
           <li>MedicineUltratech</li> <!-- already handled by single def -->
@@ -334,8 +334,8 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>12</thingDefCountRange>
-        <countRange>1</countRange>
+        <thingDefCountRange>10</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
       
       <!-- Slaves -->
@@ -352,7 +352,7 @@
           <li>AnimalExotic</li>
         </tradeTagsBuy>
         <kindCountRange>5</kindCountRange>
-        <countRange>5</countRange>
+        <countRange>15</countRange>
       </li>
       
       <!-- Buying -->
@@ -446,8 +446,8 @@
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>3</thingDefCountRange>
-        <countRange>1</countRange>
+        <thingDefCountRange>5</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
       
       <!-- Slaves -->
@@ -466,7 +466,7 @@
           <li>AnimalExotic</li>
         </tradeTagsBuy>
         <kindCountRange>5</kindCountRange>
-        <countRange>5</countRange>
+        <countRange>15</countRange>
       </li>
       
       <!-- Buying -->

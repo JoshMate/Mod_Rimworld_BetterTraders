@@ -162,12 +162,12 @@
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>10</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <thingDefCountRange>15</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ExoticMisc</tradeTag>
-        <thingDefCountRange>10</thingDefCountRange>
+        <thingDefCountRange>15</thingDefCountRange>
         <countRange>1~2</countRange>
         <excludedThingDefs>
           <li>Luciferium</li> <!-- already handled by drugs -->
@@ -191,8 +191,8 @@
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
         </tradeTagsSell>
-        <kindCountRange>6</kindCountRange>
-        <countRange>5</countRange>
+        <kindCountRange>5</kindCountRange>
+        <countRange>15</countRange>
       </li>
 
       <!-- Psytrainers -->

@@ -86,7 +86,7 @@
           <li>AnimalExotic</li>
         </tradeTagsBuy>
         <kindCountRange>5</kindCountRange>
-        <countRange>5</countRange>
+        <countRange>15</countRange>
       </li>
 
       <!-- Buying -->
@@ -325,8 +325,8 @@
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>12</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <thingDefCountRange>8</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
 
       <!-- Slaves -->
@@ -342,7 +342,7 @@
           <li>AnimalExotic</li>
         </tradeTagsBuy>
         <kindCountRange>5</kindCountRange>
-        <countRange>5</countRange>
+        <countRange>15</countRange>
       </li>
       
       <!-- Buying -->

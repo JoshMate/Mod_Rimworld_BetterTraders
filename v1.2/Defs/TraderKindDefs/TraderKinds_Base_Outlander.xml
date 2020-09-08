@@ -145,15 +145,15 @@
       <li Class="StockGenerator_Category">
         <categoryDef>BuildingsFurniture</categoryDef>
         <thingDefCountRange>12</thingDefCountRange>
-        <countRange>1~2</countRange>
+        <countRange>2</countRange>
       </li>
       <li Class="StockGenerator_Art">
         <countRange>30</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>Television</tradeTag>
-        <thingDefCountRange>4</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <thingDefCountRange>3</thingDefCountRange>
+        <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Telescope</thingDef>
@@ -164,7 +164,7 @@
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
         <thingDefCountRange>12</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ExoticMisc</tradeTag>
@@ -197,7 +197,7 @@
           <li>AnimalExotic</li>
         </tradeTagsBuy>
         <kindCountRange>5</kindCountRange>
-        <countRange>8</countRange>
+        <countRange>15</countRange>
       </li>
 
       <!-- Buying -->
