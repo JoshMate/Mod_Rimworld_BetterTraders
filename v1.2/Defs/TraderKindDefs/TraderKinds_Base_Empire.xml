@@ -94,11 +94,11 @@
       <li Class="StockGenerator_Techprints">
         <countChances>
           <li>
-            <count>4</count>
+            <count>5</count>
             <chance>1</chance>
           </li>
           <li>
-            <count>4</count>
+            <count>5</count>
             <chance>1</chance>
           </li>
         </countChances>

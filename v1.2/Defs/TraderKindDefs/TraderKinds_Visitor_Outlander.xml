@@ -13,15 +13,15 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-        <countRange>-2~5</countRange>
+        <countRange>15</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MealSurvivalPack</thingDef>
-        <countRange>3~6</countRange>
+        <countRange>15</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
-        <countRange>1~6</countRange>
+        <countRange>15</countRange>
       </li>
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
@@ -33,8 +33,8 @@
       <!-- Drugs -->
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
-        <thingDefCountRange>-1~1</thingDefCountRange>
-        <totalPriceRange>100~300</totalPriceRange>
+        <thingDefCountRange>1</thingDefCountRange>
+        <totalPriceRange>500</totalPriceRange>
       </li>
 
       <!-- Techprints -->
@@ -42,19 +42,19 @@
         <countChances>
           <li>
             <count>1</count>
-            <chance>0.5</chance>
+            <chance>0.75</chance>
           </li>
         </countChances>
       </li>
       
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
-        <countRange>0~1</countRange>
+        <countRange>2</countRange>
       </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
-        <countRange>0~1</countRange>
+        <countRange>2</countRange>
       </li>
 
       <!-- Implants -->
