@@ -209,59 +209,48 @@
 
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
-        <thingDefCountRange>0</thingDefCountRange>
-        <countRange>0~0</countRange>
+        <count>0</count>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>WeaponsMelee</categoryDef>
-        <thingDefCountRange>0</thingDefCountRange>
-        <countRange>0~0</countRange>
+        <count>0</count>
       </li>
       <li Class="StockGenerator_WeaponsRanged">
         <weaponTag>SpacerGun</weaponTag>
-        <thingDefCountRange>18</thingDefCountRange>
-        <countRange>1~4</countRange>
+        <count>10</count>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicWeapon</tradeTag>
-        <thingDefCountRange>6</thingDefCountRange>
-        <countRange>1~3</countRange>
+        <count>6</count>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>UltratechMelee</weaponTag>
-        <thingDefCountRange>6</thingDefCountRange>
-        <countRange>1~3</countRange>
+        <count>6</count>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>Bladelink</weaponTag>
-        <thingDefCountRange>3</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <count>2</count>
       </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
-         <thingDefCountRange>0</thingDefCountRange>
-        <countRange>0~0</countRange>
+         <count>0</count>
       </li>
       <li Class="StockGenerator_Armor">
-         <thingDefCountRange>0</thingDefCountRange>
-        <countRange>0~0</countRange>
+         <count>0</count>
       </li>
       <li Class="StockGenerator_Clothes">
         <apparelTag>Royal</apparelTag>
-        <thingDefCountRange>42</thingDefCountRange>
-        <countRange>1~4</countRange>
+        <count>20</count>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>HiTechArmor</tradeTag>
-        <thingDefCountRange>26</thingDefCountRange>
-        <countRange>1~4</countRange>
+       <count>20</count>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicApparel</tradeTag>
-        <thingDefCountRange>12</thingDefCountRange>
-        <countRange>1~3</countRange>
-      </li>    
+        <count>15</count>
+      </li>         
 
       <!-- Buildings -->
       <li Class="StockGenerator_Category">

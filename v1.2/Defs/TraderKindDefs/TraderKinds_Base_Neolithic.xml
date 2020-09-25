@@ -203,64 +203,53 @@
         </countChances>
       </li>
 
-      <!-- Weapons -->
+       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <thingDefCountRange>24</thingDefCountRange>
-        <countRange>1~4</countRange>
+        <count>30</count>
       </li>
       <li Class="StockGenerator_Category">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <categoryDef>WeaponsMelee</categoryDef>
-        <thingDefCountRange>24</thingDefCountRange>
-        <countRange>1~4</countRange>
+        <count>30</count>
       </li>
       <li Class="StockGenerator_WeaponsRanged">
         <weaponTag>SpacerGun</weaponTag>
-        <thingDefCountRange>0</thingDefCountRange>
-        <countRange>0~0</countRange>
+        <count>0</count>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicWeapon</tradeTag>
-        <thingDefCountRange>0</thingDefCountRange>
-        <countRange>0~0</countRange>
+        <count>0</count>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>UltratechMelee</weaponTag>
-        <thingDefCountRange>0</thingDefCountRange>
-        <countRange>0~0</countRange>
+        <count>0</count>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>Bladelink</weaponTag>
-        <thingDefCountRange>0</thingDefCountRange>
-        <countRange>0~0</countRange>
+        <count>0</count>
       </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-         <thingDefCountRange>60</thingDefCountRange>
-        <countRange>1~6</countRange>
+         <count>30</count>
       </li>
       <li Class="StockGenerator_Armor">
-         <thingDefCountRange>0</thingDefCountRange>
-        <countRange>0~0</countRange>
+         <count>0</count>
       </li>
       <li Class="StockGenerator_Clothes">
         <apparelTag>Royal</apparelTag>
-        <thingDefCountRange>0</thingDefCountRange>
-        <countRange>0~0</countRange>
+        <count>0</count>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>HiTechArmor</tradeTag>
-        <thingDefCountRange>0</thingDefCountRange>
-        <countRange>0~0</countRange>
+       <count>0</count>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicApparel</tradeTag>
-        <thingDefCountRange>0</thingDefCountRange>
-        <countRange>0~0</countRange>
-      </li>    
+        <count>0</count>
+      </li>   
 
       <!-- Buildings -->
       <li Class="StockGenerator_Category">
