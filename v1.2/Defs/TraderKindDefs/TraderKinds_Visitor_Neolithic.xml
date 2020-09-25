@@ -17,13 +17,11 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineHerbal</thingDef>
-        <countRange>12</countRange>
+        <countRange>15</countRange>
       </li>
-      <li Class="StockGenerator_MultiDef">
-        <thingDefs>
-          <li>Cloth</li>
-          <li>Chocolate</li>
-        </thingDefs>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chocolate</thingDef>
+        <countRange>30</countRange>
       </li>
       
       <!-- Drugs -->
@@ -57,7 +55,7 @@
       
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
-        <countRange>2</countRange>
+        <countRange>4</countRange>
       </li>
       
       <!-- Implants -->
