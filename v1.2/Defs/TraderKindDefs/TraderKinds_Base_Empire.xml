@@ -206,47 +206,47 @@
 
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
-        <count>0</count>
+        <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>WeaponsMelee</categoryDef>
-        <count>0</count>
+        <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_WeaponsRanged">
         <weaponTag>SpacerGun</weaponTag>
-        <count>15</count>
+        <countRange>15</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicWeapon</tradeTag>
-        <count>8</count>
+        <countRange>8</countRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>UltratechMelee</weaponTag>
-        <count>8</count>
+        <countRange>8</countRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>Bladelink</weaponTag>
-        <count>3</count>
+        <countRange>3</countRange>
       </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
-         <count>0</count>
+         <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_Armor">
-         <count>0</count>
+         <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_Clothes">
         <apparelTag>Royal</apparelTag>
-        <count>30</count>
+        <countRange>30</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>HiTechArmor</tradeTag>
-       <count>30</count>
+       <countRange>30</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicApparel</tradeTag>
-        <count>20</count>
+        <countRange>20</countRange>
       </li>      
 
       <!-- Buildings -->
@@ -262,7 +262,6 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Telescope</thingDef>
-        <thingDefCountRange>0</thingDefCountRange>
         <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_Art">

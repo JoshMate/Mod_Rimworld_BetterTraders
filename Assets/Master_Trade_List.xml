@@ -192,7 +192,7 @@
       <li Class="StockGenerator_Techprints">
         <countChances>
           <li>
-            <count>3</count>
+            <countRange>3</countRange>
             <chance>1</chance>
           </li>
         </countChances>

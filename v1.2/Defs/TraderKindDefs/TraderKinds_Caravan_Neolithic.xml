@@ -207,49 +207,49 @@
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <count>10</count>
+        <countRange>10</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <categoryDef>WeaponsMelee</categoryDef>
-        <count>10</count>
+        <countRange>10</countRange>
       </li>
       <li Class="StockGenerator_WeaponsRanged">
         <weaponTag>SpacerGun</weaponTag>
-        <count>0</count>
+        <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicWeapon</tradeTag>
-        <count>0</count>
+        <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>UltratechMelee</weaponTag>
-        <count>0</count>
+        <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>Bladelink</weaponTag>
-        <count>0</count>
+        <countRange>0</countRange>
       </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-         <count>10</count>
+         <countRange>10</countRange>
       </li>
       <li Class="StockGenerator_Armor">
-         <count>0</count>
+         <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_Clothes">
         <apparelTag>Royal</apparelTag>
-        <count>0</count>
+        <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>HiTechArmor</tradeTag>
-       <count>0</count>
+       <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicApparel</tradeTag>
-        <count>0</count>
+        <countRange>0</countRange>
       </li>    
 
       <!-- Buildings -->
@@ -265,7 +265,6 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Telescope</thingDef>
-        <thingDefCountRange>0</thingDefCountRange>
         <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_Art">
