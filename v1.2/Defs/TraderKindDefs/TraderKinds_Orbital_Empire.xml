@@ -276,7 +276,7 @@
 
       <!-- Slaves -->
       <li Class="StockGenerator_Slaves">
-        <countRange>5</countRange>
+        <countRange>0</countRange>
       </li>
 
       <!-- Animals -->
