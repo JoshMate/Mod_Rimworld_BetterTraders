@@ -156,6 +156,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
+        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
@@ -456,6 +457,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
+        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
@@ -756,6 +758,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
+        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
@@ -1056,6 +1059,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
+        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>

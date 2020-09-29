@@ -159,6 +159,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
+        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
@@ -270,7 +271,7 @@
         <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_Art">
-        <countRange>8</countRange>
+        <countRange>0</countRange>
       </li>
 
       <!-- Slaves -->
