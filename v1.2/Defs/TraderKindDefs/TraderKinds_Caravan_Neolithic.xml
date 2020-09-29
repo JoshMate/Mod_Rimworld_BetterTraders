@@ -647,7 +647,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <countRange>0</countRange>
+        <countRange>300</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>

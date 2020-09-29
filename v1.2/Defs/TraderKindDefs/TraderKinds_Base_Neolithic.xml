@@ -169,8 +169,8 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>BodyPartsNatural</tradeTag>
-        <thingDefCountRange>6</thingDefCountRange>
-        <countRange>1~3</countRange>
+        <thingDefCountRange>4</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>TechHediff</tradeTag>
