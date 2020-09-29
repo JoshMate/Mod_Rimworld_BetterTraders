@@ -157,7 +157,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
-        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
+        
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
@@ -281,8 +281,8 @@
           <li>AnimalExotic</li>
           <li>AnimalFighter</li>
         </tradeTagsSell>
-        <kindCountRange>0~0</kindCountRange>
-        <countRange>0</countRange>
+        <kindCountRange>1~3</kindCountRange>
+        <countRange>15</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>EggsFertilized</categoryDef>
@@ -459,7 +459,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
-        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
+        
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
@@ -509,11 +509,11 @@
 
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
-        <countRange>20</countRange>
+        <countRange>40</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>WeaponsMelee</categoryDef>
-        <countRange>20</countRange>
+        <countRange>40</countRange>
       </li>
       <li Class="StockGenerator_WeaponsRanged">
         <weaponTag>SpacerGun</weaponTag>
@@ -534,10 +534,10 @@
 
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
-         <countRange>20</countRange>
+         <countRange>40</countRange>
       </li>
       <li Class="StockGenerator_Armor">
-         <countRange>20</countRange>
+         <countRange>40</countRange>
       </li>
       <li Class="StockGenerator_Clothes">
         <apparelTag>Royal</apparelTag>
@@ -761,7 +761,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
-        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
+        
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
@@ -946,7 +946,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <countRange>0</countRange>
+        <countRange>200</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
@@ -1063,7 +1063,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
-        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
+        
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
@@ -1177,7 +1177,7 @@
 
       <!-- Slaves -->
       <li Class="StockGenerator_Slaves">
-        <countRange>4</countRange>
+        <countRange>6</countRange>
       </li>
 
       <!-- Animals -->

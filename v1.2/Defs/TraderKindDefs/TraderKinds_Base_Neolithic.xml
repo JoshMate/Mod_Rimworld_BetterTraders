@@ -156,7 +156,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
-        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
+        
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
@@ -207,12 +207,12 @@
        <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>30</countRange>
+        <countRange>50</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <categoryDef>WeaponsMelee</categoryDef>
-        <countRange>30</countRange>
+        <countRange>50</countRange>
       </li>
       <li Class="StockGenerator_WeaponsRanged">
         <weaponTag>SpacerGun</weaponTag>
@@ -234,7 +234,7 @@
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-         <countRange>30</countRange>
+         <countRange>50</countRange>
       </li>
       <li Class="StockGenerator_Armor">
          <countRange>0</countRange>

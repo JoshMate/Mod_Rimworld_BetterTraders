@@ -156,7 +156,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
-        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
+        
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
@@ -457,7 +457,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
-        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
+        
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
@@ -507,11 +507,11 @@
 
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
-        <countRange>10</countRange>
+        <countRange>30</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>WeaponsMelee</categoryDef>
-        <countRange>10</countRange>
+        <countRange>30</countRange>
       </li>
       <li Class="StockGenerator_WeaponsRanged">
         <weaponTag>SpacerGun</weaponTag>
@@ -532,10 +532,10 @@
 
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
-         <countRange>10</countRange>
+         <countRange>30</countRange>
       </li>
       <li Class="StockGenerator_Armor">
-         <countRange>10</countRange>
+         <countRange>30</countRange>
       </li>
       <li Class="StockGenerator_Clothes">
         <apparelTag>Royal</apparelTag>
@@ -758,7 +758,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
-        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
+        
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
@@ -872,7 +872,7 @@
 
       <!-- Slaves -->
       <li Class="StockGenerator_Slaves">
-        <countRange>4</countRange>
+        <countRange>6</countRange>
       </li>
 
       <!-- Animals -->
@@ -1059,7 +1059,7 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>Hyperweave</li> <!-- already handled by single def -->
         </excludedThingDefs>
-        <excludedCategories><li>NeurotrainersPsycast</li></excludedCategories>
+        
       </li>      
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
