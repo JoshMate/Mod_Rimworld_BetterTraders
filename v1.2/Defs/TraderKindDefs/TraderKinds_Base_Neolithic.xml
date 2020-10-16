@@ -41,6 +41,10 @@
         <countRange>1200</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>1200</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
         <countRange>0</countRange>
       </li>

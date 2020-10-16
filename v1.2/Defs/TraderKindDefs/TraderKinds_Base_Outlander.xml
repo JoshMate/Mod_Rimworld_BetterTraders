@@ -41,6 +41,10 @@
         <countRange>300</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>0</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
         <countRange>750</countRange>
       </li>
@@ -231,6 +235,10 @@
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
          <countRange>50</countRange>
+      </li>
+      <li Class="StockGenerator_Armor">
+          <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+         <countRange>20</countRange>
       </li>
       <li Class="StockGenerator_Armor">
          <countRange>50</countRange>

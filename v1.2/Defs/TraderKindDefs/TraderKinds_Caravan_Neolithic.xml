@@ -42,6 +42,10 @@
         <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>0</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
         <countRange>0</countRange>
       </li>
@@ -344,6 +348,10 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
+        <countRange>0</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
         <countRange>0</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -652,6 +660,10 @@
         <countRange>300</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>300</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
         <countRange>0</countRange>
       </li>
@@ -954,6 +966,10 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
+        <countRange>600</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
         <countRange>600</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
