@@ -1,26 +1,28 @@
 [h1]Update: 1.3[/h1]
-Has been built from the ground up for version 1.3 and Ideology to include all the new features of those updates.
+Now Re-written from scratch to Support 1.3 and Ideology! (And Various other improvements)
 
 [h1]Description[/h1]
 A Vanilla Friendly and Gamepaly Balanced way of increasing traders Silver and Stock
 
 Fuel your huge End-Game armies and bases with all the steel and components they need. 
-Finally Traders have enough to buy your 78 Masterwork Thrumbo Armchairs.
-Expand faster with more slaves, animals, weapons, food and resources on sale at traders.
+Expand with more slaves, animals, weapons, trainers, implants, food and resources on sale at traders.
+Finally Traders have enough to buy your 16 Masterwork Thrumbo Armchairs.
+
+[h1]Features[/h1]
+- Traders have a lot more silver to buy your items with (See list below).
+- Traders have a lot more items in stock to sell to you (See list below).
+- Built from scratch using 1.3 Trader Defs so it includes all the new update items.
+- Highly Balanced and Vanilla Friendly, for Vanilla Purists who want more from taders
 
 [h1]Balance[/h1]
 - Built from scratch using 1.3 Trader Defs so it is vanilla friendly / balanced.
+- All Files have been hand edited to ensure balance and optimisation
 - Trader stock amounts has been increased while still using the vanilla trade lists
 - The amount of items and silver was kept at a sensible but greatly increased amount
 - No Game Breaking ridiculous amounts of stock like 3,000 monkeys and 1,000,000 Silver
 - This technically makes the game easier as items can be bought in bigger quantities.
 - Robbing Caravans is now MUCH more profitable (Do with this information what you will)
-
-[h1]Features[/h1]
-- Traders have a lot more silver to buy your items with (See list below).
-- Traders have a lot more items in stock to sell to you (See list below).
-
-- Built from scratch using 1.3 Trader Defs so it includes all the new update items.
+- Some Rare and expensive Items quantities have only been increased slightly for balance reasons (Persona Weapons, Tech Prints, Telescopes etc..)
 
 [h3]Changes[/h3]
 [b]Visitors:[/b] 800 Silver
@@ -30,12 +32,9 @@ Expand faster with more slaves, animals, weapons, food and resources on sale at 
 [b]Item Stock:[/b] x2 More Stock
 
 [h1]Notes[/h1]
-- This also affects Human Slaves + Animals so traders will have more of them to sell you.
 - Traders prices / Trader Types / Trader frequency are unchanged.
-
-- Highly compatible as it just TraderDefs.xml edits.
+- Highly compatible with other mods as it is just TraderDefs.xml edits.
 - Safe to be added or removed from save games at anytime.
-- If you have recently opened a trade menu with a trader, you will have to wait for them to restock to see the changes.
 
 [h1]DLC[/h1]
 - Full support for Vanilla.

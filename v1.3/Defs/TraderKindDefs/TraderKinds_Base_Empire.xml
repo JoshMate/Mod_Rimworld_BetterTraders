@@ -57,7 +57,7 @@
         <countRange>50~100</countRange>
       </li>
       <li Class="StockGenerator_ReinforcedBarrels">
-        <countRange>2~8</countRange>
+        <countRange>1~8</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>MortarShell</tradeTag>
@@ -97,11 +97,11 @@
       <li Class="StockGenerator_Techprints">
         <countChances>
           <li>
-            <count>4</count>
+            <count>3</count>
             <chance>0.5</chance>
           </li>
           <li>
-            <count>6</count>
+            <count>4</count>
             <chance>0.5</chance>
           </li>
         </countChances>
@@ -110,21 +110,21 @@
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
         <weaponTag>SpacerGun</weaponTag>
-        <countRange>6~12</countRange>
+        <countRange>3~12</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>WeaponsMelee</categoryDef>
         <thingDefCountRange>3~4</thingDefCountRange>
-        <countRange>2~4</countRange>
+        <countRange>1~4</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicWeapon</tradeTag>
         <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>2~4</countRange>
+        <countRange>1~4</countRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>UltratechMelee</weaponTag>
-        <countRange>2~4</countRange>
+        <countRange>1~4</countRange>
       </li>
 
       <!-- Apparel -->
@@ -135,7 +135,7 @@
       <li Class="StockGenerator_Tag">
         <tradeTag>HiTechArmor</tradeTag>
         <thingDefCountRange>2~4</thingDefCountRange>
-        <countRange>4~8</countRange>
+        <countRange>2~8</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicApparel</tradeTag>
@@ -156,7 +156,7 @@
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>Bladelink</weaponTag>
-        <countRange>2</countRange>
+        <countRange>1</countRange>
       </li>
 
       <!-- Buildings -->
@@ -166,12 +166,12 @@
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
         <thingDefCountRange>1~4</thingDefCountRange>
-        <countRange>2~2</countRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ExoticMisc</tradeTag>
         <thingDefCountRange>1~4</thingDefCountRange>
-        <countRange>2~4</countRange>
+        <countRange>1~4</countRange>
         <excludedThingDefs>
           <li>Luciferium</li> <!-- already handled by drugs -->
           <li>ComponentSpacer</li> <!-- already handled by single def -->
