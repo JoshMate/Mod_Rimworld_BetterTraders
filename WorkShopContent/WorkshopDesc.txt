@@ -1,25 +1,38 @@
+[h1]Update: 1.3[/h1]
+Has been built from the ground up for version 1.3 and Ideology to include all the new features of those updates.
+
 [h1]Description[/h1]
+A Vanilla Friendly and Gamepaly Balanced way of increasing traders Silver and Stock
+
 Fuel your huge End-Game armies and bases with all the steel and components they need. 
 Finally Traders have enough to buy your 78 Masterwork Thrumbo Armchairs.
-Expand faster with more slaves, animals, weapons and food on sale at traders.
-Much easier to acquire the Neuro Trainers, Implants and psycasts you want ("I ASKED for this").
+Expand faster with more slaves, animals, weapons, food and resources on sale at traders.
+
+[h1]Balance[/h1]
+- Built from scratch using 1.3 Trader Defs so it is vanilla friendly / balanced.
+- Trader stock amounts has been increased while still using the vanilla trade lists
+- The amount of items and silver was kept at a sensible but greatly increased amount
+- No Game Breaking ridiculous amounts of stock like 3,000 monkeys and 1,000,000 Silver
+- This technically makes the game easier as items can be bought in bigger quantities.
+- Robbing Caravans is now MUCH more profitable (Do with this information what you will)
 
 [h1]Features[/h1]
 - Traders have a lot more silver to buy your items with (See list below).
-- Traders have a lot more items in stock to sell to you (About 3x more).
-- Built from scratch using 1.2 Trader Defs so it is vanilla friendly / balanced.
-- Built from scratch using 1.2 Trader Defs so it includes all the new update items.
+- Traders have a lot more items in stock to sell to you (See list below).
+
+- Built from scratch using 1.3 Trader Defs so it includes all the new update items.
 
 [h3]Changes[/h3]
-[b]Visitors:[/b] 1,000 Silver
-[b]Caravan:[/b] 5,000 Silver
-[b]Orbital:[/b] 10,000 Silver
-[b]Settlement:[/b] 15,000 Silver
+[b]Visitors:[/b] 800 Silver
+[b]Caravan:[/b] 3,000 Silver
+[b]Orbital:[/b] 5,000 Silver
+[b]Settlement:[/b] 10,000 Silver
+[b]Item Stock:[/b] x2 More Stock
 
 [h1]Notes[/h1]
 - This also affects Human Slaves + Animals so traders will have more of them to sell you.
 - Traders prices / Trader Types / Trader frequency are unchanged.
-- This technically makes the game easier as items can be bought in bigger quantities.
+
 - Highly compatible as it just TraderDefs.xml edits.
 - Safe to be added or removed from save games at anytime.
 - If you have recently opened a trade menu with a trader, you will have to wait for them to restock to see the changes.
@@ -27,5 +40,7 @@ Much easier to acquire the Neuro Trainers, Implants and psycasts you want ("I AS
 [h1]DLC[/h1]
 - Full support for Vanilla.
 - Full support for Royalty.
+- Full support for Ideology.
 - Will work without Royalty, but you will just have to dismiss the load up error.
+- Will work without Ideology, since it directly doesn't affect trader lists.
 
