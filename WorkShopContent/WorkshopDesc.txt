@@ -1,18 +1,23 @@
-[h1]Update: 1.3[/h1]
-Now Re-written from scratch to Support 1.3 and Ideology! (And Various other improvements)
+A Vanilla Friendly and Gameplay Balanced way of increasing traders Silver and Stock
 
-[h1]Description[/h1]
-A Vanilla Friendly and Gamepaly Balanced way of increasing traders Silver and Stock
+Now Re-written from scratch to Support 1.3 and Ideology! 
 
 Fuel your huge End-Game armies and bases with all the steel and components they need. 
-Expand with more slaves, animals, weapons, trainers, implants, food and resources on sale at traders.
+Expand with more slaves, animals, items, implants, food and resources.
 Finally Traders have enough to buy your 16 Masterwork Thrumbo Armchairs.
 
 [h1]Features[/h1]
 - Traders have a lot more silver to buy your items with (See list below).
 - Traders have a lot more items in stock to sell to you (See list below).
 - Built from scratch using 1.3 Trader Defs so it includes all the new update items.
-- Highly Balanced and Vanilla Friendly, for Vanilla Purists who want more from taders
+- Highly Balanced and Vanilla Friendly, for Vanilla Purists who want more from traders
+
+[h3]Changes[/h3]
+[b]Visitors:[/b] 800 Silver
+[b]Caravan:[/b] 3,000 Silver
+[b]Orbital:[/b] 5,000 Silver
+[b]Settlement:[/b] 10,000 Silver
+[b]Item Stock:[/b] x2 More Stock
 
 [h1]Balance[/h1]
 - Built from scratch using 1.3 Trader Defs so it is vanilla friendly / balanced.
@@ -23,13 +28,6 @@ Finally Traders have enough to buy your 16 Masterwork Thrumbo Armchairs.
 - This technically makes the game easier as items can be bought in bigger quantities.
 - Robbing Caravans is now MUCH more profitable (Do with this information what you will)
 - Some Rare and expensive Items quantities have only been increased slightly for balance reasons (Persona Weapons, Tech Prints, Telescopes etc..)
-
-[h3]Changes[/h3]
-[b]Visitors:[/b] 800 Silver
-[b]Caravan:[/b] 3,000 Silver
-[b]Orbital:[/b] 5,000 Silver
-[b]Settlement:[/b] 10,000 Silver
-[b]Item Stock:[/b] x2 More Stock
 
 [h1]Notes[/h1]
 - Traders prices / Trader Types / Trader frequency are unchanged.
@@ -43,3 +41,6 @@ Finally Traders have enough to buy your 16 Masterwork Thrumbo Armchairs.
 - Will work without Royalty, but you will just have to dismiss the load up error.
 - Will work without Ideology, since it directly doesn't affect trader lists.
 
+[h1]Version Support[/h1]
+- 1.3 The newly rewritten mod as described in this description
+- 1.2 The old legacy version of this mod which is different and not as balanced, but there for those who still want to use it.
