@@ -12,7 +12,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>3000~3000</countRange>
+        <countRange>2000~4000</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>ResourcesRaw</categoryDef>
@@ -85,20 +85,20 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>HiTechArmor</tradeTag>
-        <thingDefCountRange>0~2</thingDefCountRange>
+        <thingDefCountRange>2~4</thingDefCountRange>
         <countRange>1~4</countRange>
       </li>
 
       <!-- Implants -->
       <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireCommon</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>1~4</countRange>
+        <thingDefCountRange>2~5</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireRoyal</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>1~4</countRange>
+        <thingDefCountRange>2~5</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
 
       <!-- Animals -->

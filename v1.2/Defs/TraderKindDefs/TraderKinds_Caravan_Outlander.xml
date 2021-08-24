@@ -9,7 +9,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>3000~3000</countRange>
+        <countRange>2000~4000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
@@ -42,6 +42,9 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chocolate</thingDef>
         <totalPriceRange>20~80</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_ReinforcedBarrels">
+        <countRange>1~8</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
@@ -128,7 +131,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>3000~3000</countRange>
+        <countRange>2000~4000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
@@ -150,12 +153,12 @@
       
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
-        <countRange>5~10</countRange>
+        <countRange>8~16</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>WeaponsMelee</categoryDef>
-        <thingDefCountRange>6~6</thingDefCountRange>
-        <countRange>1~2</countRange>
+        <thingDefCountRange>8~16</thingDefCountRange>
+        <countRange>1~1</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>MortarShell</tradeTag>
@@ -165,7 +168,7 @@
       
       <!-- Apparel -->
       <li Class="StockGenerator_Armor">
-        <countRange>5~10</countRange>
+        <countRange>8~16</countRange>
       </li>
       
       <!-- Implants -->
@@ -212,7 +215,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>3000~3000</countRange>
+        <countRange>2000~4000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
@@ -284,7 +287,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>3000~3000</countRange>
+        <countRange>2000~4000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
@@ -329,7 +332,7 @@
       <!-- Implants -->
       <li Class="StockGenerator_Tag">
         <tradeTag>TechHediff</tradeTag>
-        <thingDefCountRange>3</thingDefCountRange>
+        <thingDefCountRange>6</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
       
@@ -360,7 +363,7 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>2~2</thingDefCountRange>
+        <thingDefCountRange>4~4</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
       

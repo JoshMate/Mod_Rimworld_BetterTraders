@@ -9,7 +9,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>3000~3000</countRange>
+        <countRange>2000~4000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
@@ -109,7 +109,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>3000~3000</countRange>
+        <countRange>2000~4000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
@@ -140,7 +140,7 @@
       <li Class="StockGenerator_Category">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <categoryDef>WeaponsMelee</categoryDef>
-        <thingDefCountRange>4~4</thingDefCountRange>
+        <thingDefCountRange>8~8</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_WeaponsRanged">
@@ -205,7 +205,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>3000~3000</countRange>
+        <countRange>2000~4000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
@@ -270,7 +270,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>3000~3000</countRange>
+        <countRange>2000~4000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
@@ -282,6 +282,10 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
+        <countRange>60~120</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
         <countRange>60~120</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -328,7 +332,7 @@
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>3~3</thingDefCountRange>
+        <thingDefCountRange>6~6</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
 

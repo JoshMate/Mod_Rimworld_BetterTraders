@@ -10,7 +10,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>5000~5000</countRange>
+        <countRange>5000~8000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
@@ -165,7 +165,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>5000~5000</countRange>
+        <countRange>5000~8000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
@@ -248,7 +248,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>5000~5000</countRange>
+        <countRange>5000~8000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
@@ -306,7 +306,7 @@
       <!-- Implants -->
       <li Class="StockGenerator_Tag">
         <tradeTag>TechHediff</tradeTag>
-        <thingDefCountRange>3~5</thingDefCountRange>
+        <thingDefCountRange>4~6</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
       
@@ -340,7 +340,7 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>2~4</thingDefCountRange>
+        <thingDefCountRange>2~6</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
       
@@ -397,7 +397,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>5000~5000</countRange>
+        <countRange>5000~8000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
@@ -436,18 +436,18 @@
       
       <!-- Weapons -->
       <li Class="StockGenerator_WeaponsRanged">
-        <countRange>-1~4</countRange>
+        <countRange>-1~6</countRange>
       </li>
       
       <!-- Apparel -->
       <li Class="StockGenerator_Armor">
-        <countRange>-2~4</countRange>
+        <countRange>-2~6</countRange>
       </li>
       
       <!-- Implants -->
       <li Class="StockGenerator_Tag">
         <tradeTag>TechHediff</tradeTag>
-        <thingDefCountRange>-4~5</thingDefCountRange>
+        <thingDefCountRange>-1~6</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
       
@@ -457,7 +457,7 @@
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>-5~1</thingDefCountRange>
+        <thingDefCountRange>-1~2</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
       
