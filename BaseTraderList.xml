@@ -1,0 +1,337 @@
+    <!-- Silver -->
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+
+    <!-- Raw Resources -->
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>WoodLog</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>StoneBlocks</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Cloth</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Steel</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Plasteel</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Uranium</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    
+    <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+    </li>
+    <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+    </li>
+
+    <!-- Item Resources -->
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentSpacer</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Neutroamine</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Chemfuel</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_ReinforcedBarrels">
+        <countRange>0~0</countRange>
+    </li>    
+
+    <!-- Consumables -->
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineIndustrial</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineUltratech</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Pemmican</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Chocolate</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>MealSurvivalPack</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+        <excludedCategories><li>EggsFertilized</li></excludedCategories>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+    </li>
+    <li Class="StockGenerator_Category">
+        <categoryDef>FoodMeals</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+
+    <!-- Drugs -->
+    <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+      </li>
+    <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <totalPriceRange>0~0</totalPriceRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Beer</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+
+    <!-- Equipment -->
+    <li Class="StockGenerator_Tag">
+        <tradeTag>MortarShell</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+
+    <!-- Weapons Neolithic -->
+    <li Class="StockGenerator_WeaponsRanged">
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <countRange>0~0</countRange>
+    </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>WeaponsMelee</categoryDef>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+
+    <!-- Weapons -->
+    <li Class="StockGenerator_Category">
+        <categoryDef>WeaponsMelee</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_WeaponsRanged">
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_WeaponsRanged">
+        <weaponTag>SpacerGun</weaponTag>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_Tag">
+        <tradeTag>PsychicWeapon</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_WeaponsMelee">
+        <weaponTag>UltratechMelee</weaponTag>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_WeaponsMelee">
+        <weaponTag>Bladelink</weaponTag>
+        <countRange>0</countRange>
+    </li>
+
+    <!-- Apperel Neolithic-->
+    <li Class="StockGenerator_Clothes">
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <countRange>0~0</countRange>
+    </li>
+
+    <!-- Apparel -->
+    <li Class="StockGenerator_Clothes">
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_Armor">
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_Clothes">
+        <apparelTag>Royal</apparelTag>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_Tag">
+        <tradeTag>HiTechArmor</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_Tag">
+        <tradeTag>PsychicApparel</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+
+    <!-- Techprints -->
+    <li Class="StockGenerator_Techprints">
+        <countChances>
+            <li>
+            <count>1</count>
+            <chance>1</chance>
+            </li>
+            <li>
+            <count>1</count>
+            <chance>0.5</chance>
+            </li>
+        </countChances>
+    </li>
+
+    <!-- Implants -->
+    <li Class="StockGenerator_Tag">
+        <tradeTag>TechHediff</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_Tag">
+        <tradeTag>ImplantEmpireCommon</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_Tag">
+        <tradeTag>ImplantEmpireRoyal</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+
+    <!-- Exotic -->
+    <li Class="StockGenerator_Tag">
+        <tradeTag>Artifact</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>ExoticMisc</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+        <excludedThingDefs>
+          <li>Luciferium</li> <!-- already handled by drugs -->
+          <li>ComponentSpacer</li> <!-- already handled by single def -->
+        </excludedThingDefs>
+        <customCountRanges>
+          <Hyperweave>200~400</Hyperweave>
+          <MedicineUltratech>4~30</MedicineUltratech>
+        </customCountRanges>
+    </li>
+
+    <!-- Slaves -->
+    <li Class="StockGenerator_Slaves">
+        <respectPopulationIntent>true</respectPopulationIntent>
+        <countRange>0~0</countRange>
+    </li>
+
+    <!-- Animals -->
+    <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
+        </tradeTagsBuy>
+        <kindCountRange>0~0</kindCountRange>
+        <countRange>0~0</countRange>
+        <createMatingPair>
+          <li>AnimalFarm</li>
+        </createMatingPair>
+    </li>
+
+    
+
+    <!-- Psytrainers -->
+    <li Class="StockGenerator_Category">
+        <categoryDef>NeurotrainersPsycast</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_Category">
+        <categoryDef>NeurotrainersSkill</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+
+    <!-- Buildings -->
+    <li MayRequire="Ludeon.RimWorld.Royalty" Class="StockGenerator_SingleDef">
+        <thingDef>AnimusStone</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_Category">
+        <categoryDef>BuildingsFurniture</categoryDef>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_Art">
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_Tag">
+        <tradeTag>Television</tradeTag>
+        <thingDefCountRange>0~0</thingDefCountRange>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Telescope</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+
+    <!-- Def List -->
+    <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>Chocolate</li>
+          <li>Kibble</li>
+          <li>Pemmican</li>
+          <li>Cloth</li>
+        </thingDefs>
+    </li>
+
+    <!-- Buying -->
+    <li Class="StockGenerator_BuyExpensiveSimple" />
+    <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+    <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+    <li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
+    <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+    <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+    <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+    <li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
+    <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
