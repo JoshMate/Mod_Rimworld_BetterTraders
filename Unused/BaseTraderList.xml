@@ -88,6 +88,14 @@
         <countRange>0~0</countRange>
     </li>
     <li Class="StockGenerator_SingleDef">
+        <thingDef>Hay</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
+        <thingDef>Kibble</thingDef>
+        <countRange>0~0</countRange>
+    </li>
+    <li Class="StockGenerator_SingleDef">
         <thingDef>Chocolate</thingDef>
         <countRange>0~0</countRange>
     </li>
@@ -113,7 +121,7 @@
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <thingDefCountRange>0~0</thingDefCountRange>
         <totalPriceRange>0~0</totalPriceRange>
-      </li>
+    </li>
     <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
         <thingDefCountRange>0~0</thingDefCountRange>
@@ -234,8 +242,8 @@
         <tradeTag>Artifact</tradeTag>
         <thingDefCountRange>0~0</thingDefCountRange>
         <countRange>0~0</countRange>
-      </li>
-      <li Class="StockGenerator_Tag">
+    </li>
+    <li Class="StockGenerator_Tag">
         <tradeTag>ExoticMisc</tradeTag>
         <thingDefCountRange>0~0</thingDefCountRange>
         <countRange>0~0</countRange>
@@ -244,8 +252,8 @@
           <li>ComponentSpacer</li> <!-- already handled by single def -->
         </excludedThingDefs>
         <customCountRanges>
-          <Hyperweave>200~400</Hyperweave>
-          <MedicineUltratech>4~30</MedicineUltratech>
+          <Hyperweave>250~500</Hyperweave>
+          <MedicineUltratech>5~25</MedicineUltratech>
         </customCountRanges>
     </li>
 
@@ -322,6 +330,7 @@
           <li>Kibble</li>
           <li>Pemmican</li>
           <li>Cloth</li>
+          <li>Hay</li>
         </thingDefs>
     </li>
 
