@@ -101,6 +101,18 @@
         <countRange>1~2</countRange>
       </li>
 
+      <!-- Psytrainers -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>NeurotrainersPsycast</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>NeurotrainersSkill</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
       <!-- Animals -->
       <li Class="StockGenerator_Animals">
         <maxWildness>0.70</maxWildness>
@@ -108,9 +120,15 @@
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
           <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
         </tradeTagsSell>
         <tradeTagsBuy>
+          <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
         </tradeTagsBuy>
         <kindCountRange>2~2</kindCountRange>
         <countRange>3~8</countRange>

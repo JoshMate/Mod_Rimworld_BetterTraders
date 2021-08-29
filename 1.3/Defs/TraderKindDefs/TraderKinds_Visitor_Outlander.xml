@@ -17,7 +17,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MealSurvivalPack</thingDef>
-        <countRange>6~16</countRange>
+        <countRange>8~20</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
@@ -36,7 +36,7 @@
       <!-- Drugs -->
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
-        <thingDefCountRange>-1~1</thingDefCountRange>
+        <thingDefCountRange>0~1</thingDefCountRange>
         <totalPriceRange>200~800</totalPriceRange>
       </li>
 
@@ -62,7 +62,7 @@
 
       <!-- Apparel -->
       <li Class="StockGenerator_Armor">
-        <countRange>0~2</countRange>
+        <countRange>0~3</countRange>
       </li>
 
       <!-- Implants -->

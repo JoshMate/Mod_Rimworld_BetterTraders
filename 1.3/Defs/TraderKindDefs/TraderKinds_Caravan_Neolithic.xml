@@ -15,6 +15,11 @@
         <thingDef>WoodLog</thingDef>
         <countRange>200~700</countRange>
       </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>StoneBlocks</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <totalPriceRange>400~1200</totalPriceRange>
+      </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
         <countRange>200~700</countRange>
@@ -24,8 +29,12 @@
         <countRange>500~600</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        <thingDef>Hay</thingDef>
+        <countRange>500~600</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineHerbal</thingDef>
-        <countRange>1~20</countRange>
+        <countRange>5~25</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
@@ -79,10 +88,18 @@
       <li Class="StockGenerator_Animals">
         <maxWildness>0.70</maxWildness>
         <tradeTagsSell>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
           <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
         </tradeTagsSell>
         <tradeTagsBuy>
+          <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
         </tradeTagsBuy>
         <kindCountRange>2~2</kindCountRange>
         <countRange>3~8</countRange>
@@ -169,10 +186,18 @@
       <!-- Animals -->
       <li Class="StockGenerator_Animals">
         <tradeTagsSell>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
           <li>AnimalFighter</li>
         </tradeTagsSell>
         <tradeTagsBuy>
+          <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
         </tradeTagsBuy>
         <kindCountRange>2~2</kindCountRange>
         <countRange>3~8</countRange>
@@ -342,10 +367,18 @@
       <!-- Animals -->
       <li Class="StockGenerator_Animals">
         <tradeTagsSell>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
           <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
         </tradeTagsSell>
         <tradeTagsBuy>
+          <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
         </tradeTagsBuy>
         <kindCountRange>1~2</kindCountRange>
         <countRange>3~8</countRange>

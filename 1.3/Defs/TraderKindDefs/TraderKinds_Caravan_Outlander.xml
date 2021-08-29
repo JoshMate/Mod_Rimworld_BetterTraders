@@ -101,10 +101,18 @@
       <li Class="StockGenerator_Animals">
         <maxWildness>0.70</maxWildness>
         <tradeTagsSell>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
           <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
         </tradeTagsSell>
         <tradeTagsBuy>
+          <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
         </tradeTagsBuy>
         <kindCountRange>1</kindCountRange>
         <countRange>3~8</countRange>
@@ -259,11 +267,18 @@
       <!-- Animals -->
       <li Class="StockGenerator_Animals">
         <tradeTagsSell>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
           <li>AnimalFighter</li>
         </tradeTagsSell>
         <tradeTagsBuy>
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
         </tradeTagsBuy>
         <kindCountRange>1~2</kindCountRange>
         <countRange>2~6</countRange>
@@ -332,7 +347,7 @@
       <!-- Implants -->
       <li Class="StockGenerator_Tag">
         <tradeTag>TechHediff</tradeTag>
-        <thingDefCountRange>6</thingDefCountRange>
+        <thingDefCountRange>1~3</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
       
@@ -345,6 +360,13 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Telescope</thingDef>
         <countRange>0~2</countRange>
+      </li>
+
+      <!-- Psytrainers -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>NeurotrainersSkill</categoryDef>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
       
       <!-- Exotic -->
@@ -374,12 +396,17 @@
       <li Class="StockGenerator_Animals">
         <tradeTagsSell>
           <li>AnimalUncommon</li>
-          <li>AnimalFighter</li>
+          <li>AnimalExotic</li>
           <li>AnimalFarm</li>
           <li>AnimalPet</li>
+          <li>AnimalFighter</li>
         </tradeTagsSell>
         <tradeTagsBuy>
+          <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
         </tradeTagsBuy>
         <kindCountRange>3~3</kindCountRange>
         <countRange>2~6</countRange>

@@ -27,18 +27,18 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <countRange>-5~50</countRange>
+        <countRange>25~80</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Jade</thingDef>
-        <countRange>-5~50</countRange>
+        <countRange>25~80</countRange>
       </li>
       
       <!-- Drugs -->
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <thingDefCountRange>-1~1</thingDefCountRange>
+        <thingDefCountRange>0~1</thingDefCountRange>
         <totalPriceRange>400~1000</totalPriceRange>
       </li>
       
@@ -65,6 +65,7 @@
       
       <!-- Apparel -->
       <li Class="StockGenerator_Clothes">
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <countRange>0~3</countRange>
       </li>
       
