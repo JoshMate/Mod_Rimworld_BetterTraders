@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>BetterTraders</identifier>
-    <version>3.0.0</version>
+    <version>4.0.0</version>
     <loadAfter>
         <li>Core</li>
     </loadAfter>
