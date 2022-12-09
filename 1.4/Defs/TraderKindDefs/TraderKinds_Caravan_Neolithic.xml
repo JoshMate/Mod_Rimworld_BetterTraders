@@ -48,6 +48,21 @@
           <li>Kibble</li>
         </thingDefs>
       </li>
+
+      <!-- JoshMate Tribal Changes-->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Hay</thingDef>
+        <countRange>400~1200</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>100~250</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>StoneBlocks</categoryDef>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <totalPriceRange>350~1200</totalPriceRange>
+      </li>
       
       <!-- Drugs -->
       <li Class="StockGenerator_Category">
