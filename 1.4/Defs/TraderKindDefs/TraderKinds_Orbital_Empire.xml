@@ -59,17 +59,17 @@
       <li Class="StockGenerator_MarketValue">
         <tradeTag>WeaponRanged</tradeTag>
         <weaponTag>SpacerGun</weaponTag>
-        <countRange>4~7</countRange>
+        <countRange>2~6</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicWeapon</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <thingDefCountRange>1~3</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_MarketValue">
         <tradeTag>WeaponMelee</tradeTag>
         <weaponTag>UltratechMelee</weaponTag>
-        <countRange>1~2</countRange>
+        <countRange>1~3</countRange>
       </li>
       <li Class="StockGenerator_MarketValue">
         <tradeTag>WeaponMelee</tradeTag>
@@ -78,37 +78,49 @@
       </li>
 
       <!-- Apparel -->
-      <li Class="StockGenerator_Tag">
-        <tradeTag>HiTechArmor</tradeTag>
-        <thingDefCountRange>2~4</thingDefCountRange>
-        <countRange>1~3</countRange>
-      </li>
       <li Class="StockGenerator_MarketValue">
         <tradeTag>Clothing</tradeTag>
         <apparelTag>Royal</apparelTag>
-        <countRange>8~15</countRange>
+        <countRange>2~6</countRange>
       </li>
-      <li Class="StockGenerator_MarketValue">
-        <tradeTag>BasicClothing</tradeTag>
-        <apparelTag>Royal</apparelTag>
-        <countRange>4~5</countRange>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>HiTechArmor</tradeTag>
+        <thingDefCountRange>2~6</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicApparel</tradeTag>
-        <thingDefCountRange>2~3</thingDefCountRange>
-        <countRange>1~3</countRange>
+        <thingDefCountRange>2~6</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
 
       <!-- Implants -->
       <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireCommon</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>1~3</countRange>
+        <thingDefCountRange>1~4</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireRoyal</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>1~3</countRange>
+        <thingDefCountRange>1~4</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Psytrainers -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>NeurotrainersPsycast</categoryDef>
+        <thingDefCountRange>1~4</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>NeurotrainersSkill</categoryDef>
+        <thingDefCountRange>1~4</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+      <!-- Genepack -->
+      <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
+        <thingDef>Genepack</thingDef>
+        <countRange>1~4</countRange>
       </li>
 
       <!-- Animals -->
@@ -127,12 +139,6 @@
         <createMatingPair>
           <li>AnimalFarm</li>
         </createMatingPair>
-      </li>
-
-      <!-- Genepack -->
-      <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
-        <thingDef>Genepack</thingDef>
-        <countRange>1~3</countRange>
       </li>
 
       <!-- Buying -->

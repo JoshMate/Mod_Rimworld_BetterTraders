@@ -13,7 +13,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-        <countRange>-1~10</countRange>
+        <countRange>-1~8</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MealSurvivalPack</thingDef>

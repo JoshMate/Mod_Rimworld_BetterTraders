@@ -81,14 +81,6 @@
       <!-- none -->
       
       <!-- Apparel -->
-      <li Class="StockGenerator_MarketValue">
-        <tradeTag>BasicClothing</tradeTag>
-        <countRange>8~8</countRange>
-      </li>
-      <li Class="StockGenerator_MarketValue">
-        <tradeTag>Clothing</tradeTag>
-        <countRange>4~4</countRange>
-      </li>
       
       <!-- Implants -->
       <!-- none -->
@@ -163,23 +155,31 @@
       <!-- Weapons -->
       <li Class="StockGenerator_MarketValue">
         <tradeTag>WeaponRanged</tradeTag>
-        <countRange>6~8</countRange>
+        <countRange>1~4</countRange>
       </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>WeaponsMelee</categoryDef>
-        <thingDefCountRange>6~6</thingDefCountRange>
-        <countRange>1~2</countRange>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>WeaponsMelee</tradeTag>
+        <countRange>1~4</countRange>
       </li>
+
+      <!-- Apparel -->
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>BasicClothing</tradeTag>
+        <countRange>1~4</countRange>
+      </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>Clothing</tradeTag>
+        <countRange>1~4</countRange>
+      </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>Armor</tradeTag>
+        <countRange>1~4</countRange>
+      </li>
+
       <li Class="StockGenerator_Tag">
         <tradeTag>MortarShell</tradeTag>
         <thingDefCountRange>1~2</thingDefCountRange>
         <countRange>6~30</countRange>
-      </li>
-      
-      <!-- Apparel -->
-      <li Class="StockGenerator_MarketValue">
-        <tradeTag>Armor</tradeTag>
-        <countRange>6~8</countRange>
       </li>
       
       <!-- Implants -->
@@ -353,10 +353,23 @@
       <!-- none -->
       
       <!-- Implants -->
+      <!-- Implants -->
       <li Class="StockGenerator_Tag">
         <tradeTag>TechHediff</tradeTag>
-        <thingDefCountRange>3</thingDefCountRange>
-        <countRange>2</countRange>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Psytrainers -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>NeurotrainersSkill</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+      <!-- Genepack -->
+      <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
+        <thingDef>Genepack</thingDef>
+        <countRange>1~2</countRange>
       </li>
       
       <!-- Buildings -->
@@ -388,12 +401,6 @@
         <tradeTag>Artifact</tradeTag>
         <thingDefCountRange>2~2</thingDefCountRange>
         <countRange>1~2</countRange>
-      </li>
-
-      <!-- Genepacks -->
-      <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
-        <thingDef>Genepack</thingDef>
-        <countRange>2~3</countRange>
       </li>
       
       <!-- Slaves -->
