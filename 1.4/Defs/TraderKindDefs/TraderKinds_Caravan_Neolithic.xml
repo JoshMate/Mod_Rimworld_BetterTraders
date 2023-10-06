@@ -165,25 +165,25 @@
       <li Class="StockGenerator_Category">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <categoryDef>WeaponsMelee</categoryDef>
-        <thingDefCountRange>4~4</thingDefCountRange>
+        <thingDefCountRange>2~5</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_MarketValue">
         <tradeTag>WeaponRanged</tradeTag>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>5~5</countRange>
+        <countRange>3~8</countRange>
       </li>
         
       <!-- Apparel -->
       <li Class="StockGenerator_MarketValue">
         <tradeTag>BasicClothing</tradeTag>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>8~8</countRange>
+        <countRange>3~8</countRange>
       </li>
       <li Class="StockGenerator_MarketValue">
         <tradeTag>Clothing</tradeTag>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>4~4</countRange>
+        <countRange>3~5</countRange>
       </li>
 
       <!-- Implants -->
@@ -278,7 +278,7 @@
 
       <!-- Slaves -->
       <li Class="StockGenerator_Slaves">
-        <countRange>3~5</countRange>
+        <countRange>2~5</countRange>
       </li>
       
       <!-- Animals -->
@@ -360,7 +360,7 @@
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-        <thingDefCountRange>3~3</thingDefCountRange>
+        <thingDefCountRange>2~5</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
 

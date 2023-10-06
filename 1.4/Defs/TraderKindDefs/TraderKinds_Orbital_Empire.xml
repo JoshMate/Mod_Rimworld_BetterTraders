@@ -97,7 +97,7 @@
       <!-- Implants -->
       <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireCommon</tradeTag>
-        <thingDefCountRange>1~4</thingDefCountRange>
+        <thingDefCountRange>1~5</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Tag">
@@ -114,7 +114,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersSkill</categoryDef>
-        <thingDefCountRange>1~4</thingDefCountRange>
+        <thingDefCountRange>1~5</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
       <!-- Genepack -->

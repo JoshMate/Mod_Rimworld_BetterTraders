@@ -51,20 +51,27 @@
       </li>
       
       <!-- Weapons -->
-      <li Class="StockGenerator_MarketValue">
+      <li Class="StockGenerator_Tag">
         <tradeTag>WeaponRanged</tradeTag>
-        <countRange>0~2</countRange>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>WeaponsMelee</tradeTag>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
 
       <!-- Apparel -->
-      <li Class="StockGenerator_MarketValue">
+      <li Class="StockGenerator_Tag">
         <tradeTag>Clothing</tradeTag>
-        <countRange>0~2</countRange>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
-
-      <li Class="StockGenerator_MarketValue">
+      <li Class="StockGenerator_Tag">
         <tradeTag>Armor</tradeTag>
-        <countRange>0~2</countRange>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
 
       <!-- Implants -->

@@ -123,27 +123,28 @@
       </li>
 
       <!-- Weapons -->
-      <li Class="StockGenerator_MarketValue">
+      <li Class="StockGenerator_Tag">
         <tradeTag>WeaponRanged</tradeTag>
-        <countRange>3~8</countRange>
+        <thingDefCountRange>4~8</thingDefCountRange>
+        <countRange>1~4</countRange>
       </li>
-      <li Class="StockGenerator_MarketValue">
+      <li Class="StockGenerator_Tag">
         <tradeTag>WeaponsMelee</tradeTag>
-        <countRange>3~8</countRange>
+        <thingDefCountRange>4~8</thingDefCountRange>
+        <countRange>1~4</countRange>
       </li>
+      
 
       <!-- Apparel -->
-      <li Class="StockGenerator_MarketValue">
-        <tradeTag>BasicClothing</tradeTag>
-        <countRange>3~8</countRange>
-      </li>
-      <li Class="StockGenerator_MarketValue">
+      <li Class="StockGenerator_Tag">
         <tradeTag>Clothing</tradeTag>
-        <countRange>3~8</countRange>
+        <thingDefCountRange>4~8</thingDefCountRange>
+        <countRange>1~4</countRange>
       </li>
-      <li Class="StockGenerator_MarketValue">
+      <li Class="StockGenerator_Tag">
         <tradeTag>Armor</tradeTag>
-        <countRange>3~8</countRange>
+        <thingDefCountRange>4~8</thingDefCountRange>
+        <countRange>1~4</countRange>
       </li>
 
       <!-- Implants -->
