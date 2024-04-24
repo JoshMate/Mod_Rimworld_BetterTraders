@@ -9,6 +9,7 @@
     <li>1.4</li>
   </v1.4>
    <v1.5>
-    <li>1.5</li>
+    <li>1.5/Vanilla</li>
+	 <li IfModActive="Ludeon.RimWorld.Royalty">1.5/Royalty</li>
   </v1.5>
 </loadFolders>
