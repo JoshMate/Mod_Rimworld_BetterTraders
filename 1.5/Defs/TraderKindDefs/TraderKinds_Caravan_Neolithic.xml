@@ -13,27 +13,27 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
-        <countRange>100~350</countRange>
+        <countRange>100~700</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
-        <countRange>100~350</countRange>
+        <countRange>100~700</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
-        <countRange>250~300</countRange>
+        <countRange>250~600</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineHerbal</thingDef>
-        <countRange>0~10</countRange>
+        <countRange>0~20</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Dye</thingDef>
-        <countRange>20~30</countRange>
+        <countRange>20~60</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
-        <thingDefCountRange>2~2</thingDefCountRange>
+        <thingDefCountRange>2~4</thingDefCountRange>
         <totalPriceRange>200~600</totalPriceRange>
         <excludedThingDefs>
           <li MayRequire="Ludeon.RimWorld.Anomaly">Leather_Dread</li>
@@ -42,7 +42,7 @@
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
         <thingDefCountRange>4~4</thingDefCountRange>
-        <totalPriceRange>400~600</totalPriceRange>
+        <totalPriceRange>400~1200</totalPriceRange>
         <excludedCategories>
           <li>EggsFertilized</li>
         </excludedCategories>
@@ -57,15 +57,15 @@
       <!-- JoshMate Tribal Changes-->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Hay</thingDef>
-        <countRange>200~400</countRange>
+        <countRange>200~800</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Jade</thingDef>
-        <countRange>30~60</countRange>
+        <countRange>30~120</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>StoneBlocks</categoryDef>
-        <thingDefCountRange>1~1</thingDefCountRange>
+        <thingDefCountRange>1~2</thingDefCountRange>
         <totalPriceRange>100~200</totalPriceRange>
       </li>
       
@@ -156,11 +156,11 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
-        <countRange>150~300</countRange>
+        <countRange>150~600</countRange>
       </li>     
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineHerbal</thingDef>
-        <countRange>15~30</countRange>
+        <countRange>15~60</countRange>
       </li>
       
       <!-- Drugs -->
@@ -186,25 +186,25 @@
       <li Class="StockGenerator_Category">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <categoryDef>WeaponsMelee</categoryDef>
-        <thingDefCountRange>4~4</thingDefCountRange>
+        <thingDefCountRange>4~8</thingDefCountRange>
         <countRange>1~1</countRange>
       </li>
       <li Class="StockGenerator_MarketValue">
         <tradeTag>WeaponRanged</tradeTag>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>4~4</countRange>
+        <countRange>4~8</countRange>
       </li>
         
       <!-- Apparel -->
       <li Class="StockGenerator_MarketValue">
         <tradeTag>BasicClothing</tradeTag>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>7~7</countRange>
+        <countRange>7~14</countRange>
       </li>
       <li Class="StockGenerator_MarketValue">
         <tradeTag>Clothing</tradeTag>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>3~3</countRange>
+        <countRange>3~6</countRange>
       </li>
 
       <!-- Implants -->
@@ -272,11 +272,11 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
-        <countRange>150~300</countRange>
+        <countRange>150~600</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineHerbal</thingDef>
-        <countRange>10~20</countRange>
+        <countRange>10~40</countRange>
       </li>
       
       <!-- Drugs -->
@@ -340,32 +340,32 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
-        <countRange>150~300</countRange>
+        <countRange>150~600</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Plasteel</thingDef>
-        <countRange>50~150</countRange>
+        <countRange>50~300</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <countRange>30~60</countRange>
+        <countRange>30~120</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
-        <countRange>25~100</countRange>
+        <countRange>25~200</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>Medicine</categoryDef>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <maxTechLevelBuy>Ultra</maxTechLevelBuy>
-        <countRange>1~2</countRange>
+        <countRange>1~4</countRange>
       </li>
       
       <!-- Drugs -->
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <thingDefCountRange>1~1</thingDefCountRange>
+        <thingDefCountRange>1~2</thingDefCountRange>
         <totalPriceRange>300~700</totalPriceRange>
       </li>
 
@@ -407,7 +407,7 @@
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
         <thingDefCountRange>3~3</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <countRange>1~4</countRange>
       </li>
 
       <!-- Serums -->

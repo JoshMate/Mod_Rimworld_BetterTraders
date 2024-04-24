@@ -9,15 +9,15 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>50~250</countRange>
+        <countRange>500~500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
-        <countRange>40~80</countRange>
+        <countRange>40~160</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineHerbal</thingDef>
-        <countRange>1~4</countRange>
+        <countRange>1~8</countRange>
       </li>
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
@@ -29,16 +29,16 @@
       <!-- JoshMate Tribal Changes-->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Hay</thingDef>
-        <countRange>100~200</countRange>
+        <countRange>100~250</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Jade</thingDef>
-        <countRange>20~40</countRange>
+        <countRange>20~50</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>StoneBlocks</categoryDef>
         <thingDefCountRange>0~1</thingDefCountRange>
-        <totalPriceRange>50~100</totalPriceRange>
+        <totalPriceRange>60~180</totalPriceRange>
       </li>
       
       <!-- Drugs -->
@@ -46,7 +46,7 @@
         <categoryDef>Drugs</categoryDef>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <thingDefCountRange>-1~1</thingDefCountRange>
-        <totalPriceRange>200~400</totalPriceRange>
+        <totalPriceRange>200~800</totalPriceRange>
       </li>
       
       <!-- Techprints -->
@@ -69,18 +69,18 @@
       <li Class="StockGenerator_MarketValue">
         <tradeTag>WeaponRanged</tradeTag>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <countRange>0~1</countRange>
+        <countRange>0~2</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <categoryDef>WeaponsMelee</categoryDef>
-        <countRange>0~1</countRange>
+        <countRange>0~2</countRange>
       </li>
       
       <!-- Apparel -->
       <li Class="StockGenerator_MarketValue">
         <tradeTag>Clothing</tradeTag>
-        <countRange>0~1</countRange>
+        <countRange>0~2</countRange>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
       </li>
       

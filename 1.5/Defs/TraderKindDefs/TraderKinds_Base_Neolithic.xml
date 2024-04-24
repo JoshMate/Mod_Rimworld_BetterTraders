@@ -12,35 +12,35 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-        <countRange>3~10</countRange>
+        <countRange>3~20</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
-        <countRange>200~300</countRange>
+        <countRange>200~600</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
-        <countRange>500~600</countRange>
+        <countRange>500~1200</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
-        <countRange>200~300</countRange>
+        <countRange>200~600</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <countRange>-40~120</countRange>
+        <countRange>-40~240</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
-        <countRange>500~1000</countRange>
+        <countRange>500~2000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineHerbal</thingDef>
-        <countRange>15~30</countRange>
+        <countRange>15~60</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
-        <thingDefCountRange>1~2</thingDefCountRange>
+        <thingDefCountRange>1~4</thingDefCountRange>
         <totalPriceRange>300~700</totalPriceRange>
         <excludedThingDefs>
           <li MayRequire="Ludeon.RimWorld.Anomaly">Leather_Dread</li>
@@ -48,13 +48,13 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>ResourcesRaw</categoryDef>
-        <thingDefCountRange>3~3</thingDefCountRange>
+        <thingDefCountRange>3~6</thingDefCountRange>
         <totalPriceRange>200~600</totalPriceRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
         <thingDefCountRange>3~5</thingDefCountRange>
-        <totalPriceRange>300~800</totalPriceRange>
+        <totalPriceRange>300~1600</totalPriceRange>
         <excludedCategories>
           <li>EggsFertilized</li>
         </excludedCategories>
@@ -69,15 +69,15 @@
       <!-- JoshMate Tribal Changes-->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Hay</thingDef>
-        <countRange>300~600</countRange>
+        <countRange>300~1200</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Jade</thingDef>
-        <countRange>50~150</countRange>
+        <countRange>50~300</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>StoneBlocks</categoryDef>
-        <thingDefCountRange>1~1</thingDefCountRange>
+        <thingDefCountRange>1~2</thingDefCountRange>
         <totalPriceRange>200~400</totalPriceRange>
       </li>
       
@@ -86,7 +86,7 @@
         <categoryDef>Drugs</categoryDef>
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <thingDefCountRange>1~2</thingDefCountRange>
-        <totalPriceRange>400~1000</totalPriceRange>
+        <totalPriceRange>400~2000</totalPriceRange>
       </li>
       
       <!-- Techprints -->

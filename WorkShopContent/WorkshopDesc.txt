@@ -1,17 +1,20 @@
 [h1]Better Traders[/h1]
-
-A mod that improves how much stock and silver traders have without breaking game balance or straying away from the vanilla design principles for the game.
-
-Trade lists have been hand written and balanced to ensure you get more of what you need without every trader having unrealistic amounts of stock.
-
-You will now be able to fuel End game colonies with much more raw resources / items and equipment.
+A mod that improves how much stock and silver traders have without breaking balance.
 
 [h1]What this mod Changes[/h1]
-Visitors: [b]500 Silver[/b]
-Caravan: [b]3,000 Silver[/b]
-Orbital: [b]6,000 Silver[/b]
-Settlement: [b]12,000 Silver[/b]
-All Trader's Stock: [b]About Double and variety / consistency improvements[/b]
+[b]All Traders[/b]
+- Increased stock amount / diversity / consistency
+- Ultra rare / unique items unchanged to maintain balance
+- Animals / slaves unchanged to prevent lag / overcrowding
+
+[b]Tribal Traders[/b]
+- Now buy & sell: jade / hay / stone blocks
+
+[b]New Silver Amounts[/b]
+- Visitor: 500 Silver
+- Caravan: 3,000 Silver
+- Orbital: 6,000 Silver
+- Settlement: 12,000 Silver
 
 [h1]What this mod DOESN'T change[/h1]
 - The Prices of items
@@ -19,7 +22,14 @@ All Trader's Stock: [b]About Double and variety / consistency improvements[/b]
 - How often traders appear
 
 [h1]Notes[/h1]
-- Full support for all DLCs and all their new items / trader features.
-- Highly compatible with other mods as it is just TraderDefs.xml edits.
+- Conflicts with anything that alters TraderDefs.xml edits.
 - Safe to be added or removed from save games at anytime.
-- Highly Balanced and Vanilla Friendly, for Vanilla Purists who want more from traders
+
+[h1]DLC Support[/h1]
+- Supports 1.5
+- Supports Royalty
+- Supports Ideology
+- Supports Biotech
+- Supports Anomaly
+
+[i]If you don't have the DLCs just dismiss the startup errors, they won't affect your game.[/i]
