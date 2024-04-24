@@ -19,6 +19,11 @@
         <thingDef>Cloth</thingDef>
         <countRange>100~700</countRange>
       </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>0~2</thingDefCountRange>
+        <totalPriceRange>500~1500</totalPriceRange>
+      </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
         <countRange>250~600</countRange>
@@ -57,16 +62,16 @@
       <!-- JoshMate Tribal Changes-->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Hay</thingDef>
-        <countRange>200~800</countRange>
+        <countRange>500~1000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Jade</thingDef>
-        <countRange>30~120</countRange>
+        <countRange>50~100</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>StoneBlocks</categoryDef>
         <thingDefCountRange>1~2</thingDefCountRange>
-        <totalPriceRange>100~200</totalPriceRange>
+        <totalPriceRange>500~1000</totalPriceRange>
       </li>
       
       <!-- Drugs -->
@@ -187,7 +192,7 @@
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <categoryDef>WeaponsMelee</categoryDef>
         <thingDefCountRange>4~8</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_MarketValue">
         <tradeTag>WeaponRanged</tradeTag>
@@ -348,7 +353,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <countRange>30~120</countRange>
+        <countRange>100~250</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
@@ -359,6 +364,12 @@
         <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
         <maxTechLevelBuy>Ultra</maxTechLevelBuy>
         <countRange>1~4</countRange>
+      </li>
+
+      <!-- JoshMate Tribal Changes-->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>100~250</countRange>
       </li>
       
       <!-- Drugs -->

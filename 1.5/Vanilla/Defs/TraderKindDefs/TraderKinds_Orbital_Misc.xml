@@ -74,11 +74,8 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>ResourcesRaw</categoryDef>
-        <excludedThingDefs>
-          <li>Silver</li>
-        </excludedThingDefs>
-        <thingDefCountRange>2~8</thingDefCountRange>
-        <totalPriceRange>800~1500</totalPriceRange>
+        <thingDefCountRange>0~2</thingDefCountRange>
+        <totalPriceRange>600~2000</totalPriceRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>

@@ -18,6 +18,7 @@
       <li Class="StockGenerator_Category">
         <categoryDef>ResourcesRaw</categoryDef>
         <thingDefCountRange>0~2</thingDefCountRange>
+        <totalPriceRange>1000~3000</totalPriceRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>

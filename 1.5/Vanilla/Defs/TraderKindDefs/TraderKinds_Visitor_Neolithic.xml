@@ -29,16 +29,20 @@
       <!-- JoshMate Tribal Changes-->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Hay</thingDef>
-        <countRange>100~250</countRange>
+        <countRange>250~500</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Jade</thingDef>
-        <countRange>20~50</countRange>
+        <countRange>25~50</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>10~35</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>StoneBlocks</categoryDef>
         <thingDefCountRange>0~1</thingDefCountRange>
-        <totalPriceRange>60~180</totalPriceRange>
+        <totalPriceRange>250~500</totalPriceRange>
       </li>
       
       <!-- Drugs -->

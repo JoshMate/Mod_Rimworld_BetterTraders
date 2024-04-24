@@ -19,6 +19,11 @@
         <thingDef>ComponentSpacer</thingDef>
         <countRange>-10~8</countRange>
       </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>0~2</thingDefCountRange>
+        <totalPriceRange>500~1500</totalPriceRange>
+      </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
         <countRange>250~1600</countRange>
@@ -214,7 +219,7 @@
       <!-- Apparel -->
       <li Class="StockGenerator_MarketValue">
         <tradeTag>Armor</tradeTag>
-        <countRange>5~20</countRange>
+        <countRange>10~20</countRange>
       </li>
       
       <!-- Implants -->
@@ -435,7 +440,7 @@
       <li Class="StockGenerator_Tag">
         <tradeTag>TechHediff</tradeTag>
         <thingDefCountRange>3</thingDefCountRange>
-        <countRange>1~2</countRange>
+        <countRange>1~3</countRange>
       </li>
       
       <!-- Buildings -->
@@ -453,7 +458,7 @@
       <li Class="StockGenerator_Tag">
         <tradeTag>ExoticMisc</tradeTag>
         <thingDefCountRange>3~3</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <countRange>1~2</countRange>
         <excludedThingDefs>
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>ComponentSpacer</li> <!-- already handled by single def -->
