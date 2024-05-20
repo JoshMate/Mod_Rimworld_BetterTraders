@@ -16,7 +16,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
-        <countRange>1~24</countRange>
+        <countRange>6~24</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
@@ -175,8 +175,8 @@
       <!-- Implants -->
       <li Class="StockGenerator_Tag">
         <tradeTag>TechHediff</tradeTag>
-        <thingDefCountRange>2~4</thingDefCountRange>
-        <countRange>1~2</countRange>
+        <thingDefCountRange>2~5</thingDefCountRange>
+        <countRange>1~4</countRange>
       </li>
 
       <!-- Buildings -->

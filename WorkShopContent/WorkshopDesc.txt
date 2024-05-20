@@ -6,6 +6,7 @@ A mod that improves how much stock and silver traders have without breaking bala
 - Increased stock amount / diversity / consistency
 - Ultra rare / unique items unchanged to maintain balance
 - Animals / slaves unchanged to prevent lag / overcrowding
+- Settlements have significantly more for sale making the trip more worth it
 
 [b]Tribal Traders[/b]
 - Now buy & sell: jade / hay / stone blocks
@@ -22,7 +23,7 @@ A mod that improves how much stock and silver traders have without breaking bala
 - How often traders appear
 
 [h1]Notes[/h1]
-- Conflicts with anything that alters TraderDefs.xml edits.
+- Incompatible with anything that alters the TraderDefs.xml files.
 - Safe to be added or removed from save games at anytime.
 
 [h1]DLC Support[/h1]
@@ -31,5 +32,3 @@ A mod that improves how much stock and silver traders have without breaking bala
 - Supports Ideology
 - Supports Biotech
 - Supports Anomaly
-
-[i]If you don't have the DLCs just dismiss the startup errors, they won't affect your game.[/i]

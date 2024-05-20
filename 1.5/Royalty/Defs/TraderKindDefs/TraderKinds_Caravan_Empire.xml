@@ -88,44 +88,54 @@
         <weaponTag>SpacerGun</weaponTag>
         <countRange>1~3</countRange>
       </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>WeaponsMelee</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>PsychicWeapon</tradeTag>
         <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>1~2</countRange>
+        <countRange>1~1</countRange>
+      </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>WeaponMelee</tradeTag>
+        <weaponTag>UltratechMelee</weaponTag>
+        <countRange>0~1</countRange>
       </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_MarketValue">
         <tradeTag>BasicClothing</tradeTag>
         <apparelTag>Royal</apparelTag>
-        <countRange>3~7</countRange>
+        <countRange>1~3</countRange>
       </li>
       <li Class="StockGenerator_MarketValue">
         <tradeTag>Clothing</tradeTag>
         <apparelTag>Royal</apparelTag>
-        <countRange>1~3</countRange>
-      </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>PsychicApparel</tradeTag>
-        <thingDefCountRange>2~3</thingDefCountRange>
-        <countRange>1~3</countRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>HiTechArmor</tradeTag>
-        <thingDefCountRange>0~2</thingDefCountRange>
-        <countRange>1~3</countRange>
+        <thingDefCountRange>2~4</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>PsychicApparel</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
 
       <!-- Implants -->
       <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireCommon</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>1~3</countRange>
+        <thingDefCountRange>1~3</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireRoyal</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>1~3</countRange>
+        <thingDefCountRange>1~3</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
 
       <!-- Animals -->
