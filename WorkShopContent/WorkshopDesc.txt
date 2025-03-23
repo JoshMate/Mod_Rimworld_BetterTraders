@@ -12,10 +12,10 @@ A mod that improves how much stock and silver traders have without breaking bala
 - Now buy & sell: jade / hay / stone blocks
 
 [b]New Silver Amounts[/b]
-- Visitor: 500 Silver
-- Caravan: 3,000 Silver
-- Orbital: 6,000 Silver
-- Settlement: 12,000 Silver
+- Visitor: 500 - 1000 Silver
+- Caravan: 3,000 - 5,000 Silver
+- Orbital: 6,000 - 10,000 Silver
+- Settlement: 12,000 - 20,000 Silver
 
 [h1]What this mod DOESN'T change[/h1]
 - The Prices of items
