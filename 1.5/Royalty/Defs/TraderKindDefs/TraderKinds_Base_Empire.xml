@@ -156,6 +156,11 @@
         <weaponTag>UltratechMelee</weaponTag>
         <countRange>1~2</countRange>
       </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>WeaponMelee</tradeTag>
+        <weaponTag>Bladelink</weaponTag>
+        <countRange>2</countRange>
+      </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_MarketValue">
@@ -183,18 +188,19 @@
       <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireCommon</tradeTag>
         <thingDefCountRange>2~4</thingDefCountRange>
-        <countRange>2~4</countRange>
+        <countRange>1~4</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ImplantEmpireRoyal</tradeTag>
         <thingDefCountRange>2~4</thingDefCountRange>
-        <countRange>2~4</countRange>
+        <countRange>1~4</countRange>
       </li>
-      <li Class="StockGenerator_MarketValue">
-        <tradeTag>WeaponMelee</tradeTag>
-        <weaponTag>Bladelink</weaponTag>
-        <countRange>1</countRange>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>TechHediff</tradeTag>
+        <thingDefCountRange>2~4</thingDefCountRange>
+        <countRange>1~4</countRange>
       </li>
+      
 
       <!-- Buildings -->
       <!-- none -->
@@ -260,7 +266,12 @@
       <li Class="StockGenerator_Category">
         <categoryDef>NeurotrainersPsycast</categoryDef>
         <thingDefCountRange>2~4</thingDefCountRange>
-        <countRange>0~1</countRange>
+        <countRange>1~1</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>NeurotrainersSkill</categoryDef>
+        <thingDefCountRange>2~4</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
 
       <!-- Archite capsules -->

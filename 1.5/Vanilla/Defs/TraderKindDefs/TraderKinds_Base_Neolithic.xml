@@ -20,15 +20,15 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
-        <countRange>500~2400</countRange>
+        <countRange>2000~5000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
-        <countRange>200~1200</countRange>
+        <countRange>1000~3000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
-        <countRange>50~480</countRange>
+        <countRange>250~1000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Pemmican</thingDef>
@@ -36,7 +36,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineHerbal</thingDef>
-        <countRange>15~120</countRange>
+        <countRange>50~250</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
@@ -49,12 +49,12 @@
       <li Class="StockGenerator_Category">
         <categoryDef>ResourcesRaw</categoryDef>
         <thingDefCountRange>3~6</thingDefCountRange>
-        <totalPriceRange>200~1200</totalPriceRange>
+        <totalPriceRange>200~1500</totalPriceRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
         <thingDefCountRange>3~5</thingDefCountRange>
-        <totalPriceRange>300~3800</totalPriceRange>
+        <totalPriceRange>1000~3800</totalPriceRange>
         <excludedCategories>
           <li>EggsFertilized</li>
         </excludedCategories>
@@ -69,11 +69,11 @@
       <!-- JoshMate Tribal Changes-->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Hay</thingDef>
-        <countRange>2000~4000</countRange>
+        <countRange>3000~6000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Jade</thingDef>
-        <countRange>200~400</countRange>
+        <countRange>300~1500</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>StoneBlocks</categoryDef>
