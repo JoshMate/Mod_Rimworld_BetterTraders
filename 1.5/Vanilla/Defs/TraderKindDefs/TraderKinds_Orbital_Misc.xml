@@ -357,6 +357,18 @@
         </countChances>
       </li>
 
+      <!-- Psytrainers -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>NeurotrainersPsycast</categoryDef>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>NeurotrainersSkill</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
       <!-- Books -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>TextBook</thingDef>

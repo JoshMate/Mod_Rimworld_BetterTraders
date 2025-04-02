@@ -393,7 +393,7 @@
       <!-- Books -->
       <li MayRequire="Ludeon.RimWorld.Anomaly" Class="StockGenerator_SingleDef">
         <thingDef>Tome</thingDef>
-        <countRange>0~1</countRange>
+        <countRange>0~2</countRange>
       </li>
       
       <!-- Weapons -->

@@ -109,7 +109,7 @@
         <excludedThingDefs>
           <li MayRequire="Ludeon.RimWorld.Anomaly">Tome</li> <!-- only available in Anomaly, handled seperately -->
         </excludedThingDefs>
-        <thingDefCountRange>2</thingDefCountRange>
+        <thingDefCountRange>5</thingDefCountRange>
         <countRange>-2~1</countRange>
       </li>  
       

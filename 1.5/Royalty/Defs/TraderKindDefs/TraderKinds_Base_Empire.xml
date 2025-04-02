@@ -14,7 +14,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-        <countRange>20~280</countRange>
+        <countRange>15~120</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
@@ -121,7 +121,7 @@
         <excludedThingDefs>
           <li MayRequire="Ludeon.RimWorld.Anomaly">Tome</li> <!-- only available in Anomaly, handled seperately -->
         </excludedThingDefs>
-        <thingDefCountRange>2</thingDefCountRange>
+        <thingDefCountRange>3</thingDefCountRange>
         <countRange>-2~1</countRange>
       </li>  
       
