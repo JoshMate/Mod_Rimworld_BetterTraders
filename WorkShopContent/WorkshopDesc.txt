@@ -32,3 +32,4 @@ A mod that improves how much stock and silver traders have without breaking bala
 - Supports Ideology
 - Supports Biotech
 - Supports Anomaly
+- Supports Odyssey
