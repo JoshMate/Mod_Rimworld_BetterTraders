@@ -9,19 +9,19 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>50~250</countRange>
+        <countRange>500~1000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-        <countRange>-2~5</countRange>
+        <countRange>-1~10</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MealSurvivalPack</thingDef>
-        <countRange>3~6</countRange>
+        <countRange>6~12</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
-        <countRange>1~6</countRange>
+        <countRange>2~12</countRange>
       </li>
       <li Class="StockGenerator_ReinforcedBarrels">
         <countRange>1~4</countRange>
@@ -37,7 +37,7 @@
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
         <thingDefCountRange>-1~1</thingDefCountRange>
-        <totalPriceRange>100~300</totalPriceRange>
+        <totalPriceRange>200~600</totalPriceRange>
       </li>
 
       <!-- Techprints -->
@@ -51,18 +51,30 @@
       </li>
 
       <!-- Books -->
-      <!-- none -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>Books</categoryDef>
+        <excludedThingDefs>
+          <li MayRequire="Ludeon.RimWorld.Anomaly">Tome</li> <!-- only available in Anomaly, handled seperately -->
+        </excludedThingDefs>
+        <thingDefCountRange>1</thingDefCountRange>
+        <countRange>-1~1</countRange>
+      </li>  
       
       <!-- Weapons -->
       <li Class="StockGenerator_MarketValue">
         <tradeTag>WeaponRanged</tradeTag>
-        <countRange>0~1</countRange>
+        <countRange>0~2</countRange>
       </li>
 
       <!-- Apparel -->
       <li Class="StockGenerator_MarketValue">
         <tradeTag>Clothing</tradeTag>
-        <countRange>0~1</countRange>
+        <countRange>0~2</countRange>
+      </li>
+
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>Armor</tradeTag>
+        <countRange>0~2</countRange>
       </li>
 
       <!-- Implants -->
