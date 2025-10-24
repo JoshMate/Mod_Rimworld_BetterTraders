@@ -15,11 +15,11 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-        <countRange>30~60</countRange>
+        <countRange>10~40</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
-        <countRange>2~4</countRange>
+        <countRange>1~4</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
@@ -88,18 +88,29 @@
         <thingDefCountRange>2~4</thingDefCountRange>
         <totalPriceRange>1600~3500</totalPriceRange>
       </li>
+      <!-- Josh Mate Rebalanced Raw Food (No longer thousands of eggs)-->
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
-        <thingDefCountRange>2~4</thingDefCountRange>
-        <totalPriceRange>1600~3000</totalPriceRange>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <totalPriceRange>1000~2000</totalPriceRange>
         <excludedCategories>
           <li>EggsFertilized</li>
+          <li>MeatRaw</li>
+        </excludedCategories>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <totalPriceRange>1000~2000</totalPriceRange>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+          <li>EggsUnfertilized</li>
         </excludedCategories>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodMeals</categoryDef>
         <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>30~60</countRange>
+        <countRange>20~40</countRange>
       </li>
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
@@ -281,11 +292,15 @@
       <!-- Apparel -->
       <li Class="StockGenerator_MarketValue">
         <tradeTag>Armor</tradeTag>
-        <countRange>8~13</countRange>
+        <countRange>8~20</countRange>
       </li>
       
       <!-- Implants -->
-      <!-- none -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>TechHediff</tradeTag>
+        <thingDefCountRange>2~4</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
       
       <!-- Buildings -->
       <!-- none -->
@@ -331,11 +346,11 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-        <countRange>10~60</countRange>
+        <countRange>10~40</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
-        <countRange>6~16</countRange>
+        <countRange>2~10</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>

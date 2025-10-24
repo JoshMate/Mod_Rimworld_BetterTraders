@@ -39,14 +39,27 @@
           <li MayRequire="Ludeon.RimWorld.Anomaly">Leather_Dread</li>
         </excludedThingDefs>
       </li>
+
+      <!-- Josh Mate Rebalanced Raw Food (No longer thousands of eggs)-->
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
-        <thingDefCountRange>4~5</thingDefCountRange>
-        <totalPriceRange>800~1200</totalPriceRange>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <totalPriceRange>800~1800</totalPriceRange>
         <excludedCategories>
           <li>EggsFertilized</li>
+          <li>MeatRaw</li>
         </excludedCategories>
       </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <totalPriceRange>800~1800</totalPriceRange>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+          <li>EggsUnfertilized</li>
+        </excludedCategories>
+      </li>
+      
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
           <li>Chocolate</li>

@@ -18,11 +18,11 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
-        <countRange>16~32</countRange>
+        <countRange>10~32</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
-        <countRange>1000~1600</countRange>
+        <countRange>1500~2000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Plasteel</thingDef>
@@ -85,19 +85,32 @@
           <li MayRequire="Ludeon.RimWorld.Odyssey">BlocksVacstone</li>
         </excludedThingDefs>
       </li>
+
+      <!-- Josh Mate Rebalanced Raw Food (No longer thousands of eggs)-->
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
-        <thingDefCountRange>2~4</thingDefCountRange>
-        <totalPriceRange>800~1600</totalPriceRange>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <totalPriceRange>2000~4000</totalPriceRange>
         <excludedCategories>
           <li>EggsFertilized</li>
+          <li>MeatRaw</li>
+        </excludedCategories>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <totalPriceRange>2000~4000</totalPriceRange>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+          <li>EggsUnfertilized</li>
         </excludedCategories>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodMeals</categoryDef>
         <thingDefCountRange>2~3</thingDefCountRange>
-        <countRange>24~100</countRange>
+        <countRange>40~80</countRange>
       </li>
+
 
       <!-- Drugs -->
       <li Class="StockGenerator_Category">

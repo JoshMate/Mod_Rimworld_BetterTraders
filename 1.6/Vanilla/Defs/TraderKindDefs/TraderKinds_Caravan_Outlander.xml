@@ -50,14 +50,27 @@
       <li Class="StockGenerator_ReinforcedBarrels">
         <countRange>1~4</countRange>
       </li>
+
+      <!-- Josh Mate Rebalanced Raw Food (No longer thousands of eggs)-->
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
-        <thingDefCountRange>3~3</thingDefCountRange>
-        <totalPriceRange>300~1200</totalPriceRange>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <totalPriceRange>800~1800</totalPriceRange>
         <excludedCategories>
           <li>EggsFertilized</li>
+          <li>MeatRaw</li>
         </excludedCategories>
       </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <totalPriceRange>800~1800</totalPriceRange>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+          <li>EggsUnfertilized</li>
+        </excludedCategories>
+      </li>
+
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
         <excludedThingDefs>
@@ -214,11 +227,15 @@
       <!-- Apparel -->
       <li Class="StockGenerator_MarketValue">
         <tradeTag>Armor</tradeTag>
-        <countRange>5~8</countRange>
+        <countRange>4~12</countRange>
       </li>
       
       <!-- Implants -->
-      <!-- none -->
+      <li Class="StockGenerator_Tag">
+        <tradeTag>TechHediff</tradeTag>
+        <thingDefCountRange>1~3</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
       
       <!-- Buildings -->
       <!-- none -->

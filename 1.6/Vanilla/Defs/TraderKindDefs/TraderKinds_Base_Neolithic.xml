@@ -20,7 +20,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
-        <countRange>1000~1200</countRange>
+        <countRange>1500~2000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
@@ -52,14 +52,26 @@
           <li MayRequire="Ludeon.RimWorld.Odyssey">BlocksVacstone</li>
         </excludedThingDefs>
       </li>
+      <!-- Josh Mate Rebalanced Raw Food (No longer thousands of eggs)-->
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
-        <thingDefCountRange>3~6</thingDefCountRange>
-        <totalPriceRange>400~1600</totalPriceRange>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <totalPriceRange>2000~4000</totalPriceRange>
         <excludedCategories>
           <li>EggsFertilized</li>
+          <li>MeatRaw</li>
         </excludedCategories>
       </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <totalPriceRange>2000~4000</totalPriceRange>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+          <li>EggsUnfertilized</li>
+        </excludedCategories>
+      </li>
+
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
           <li>Chocolate</li>
