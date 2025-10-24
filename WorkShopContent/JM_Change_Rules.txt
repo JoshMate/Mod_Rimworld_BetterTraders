@@ -1,0 +1,27 @@
+This File outlines my general thought process and rules when changing the trader files for the new versions
+
+####### General Rules
+- All items have their Min and Max Amounts DOUBLED (X2)
+- All items that have a Count Range and and amount range ONLY have the amount changed
+- Items that are 1-1 amount range become 1-2 (Not 2-2)
+
+####### Less
+- Weapons / Armour only increased by slightly
+- Implants only increased slightly
+- Pyscasts only increased slightly
+- Artifacts only increased slightly
+- Books only increased slightly
+
+####### Unchanged
+- Reinforced barrels not changed (As they are meant to be rare)
+- Tech Prints not changed (As they are meant to be rare)
+- Clothing not changed (As it clogs the trade list quickly)
+- Buildings not changed (As it clogs the trade list quickly)
+- Phychic weapons not changed (As they are rare)
+- Ultra tech weapons not changed (As they are rare) 
+- Blade Link Weapons not changed (As they are rare) 
+- Genepacks not changed (As Rare)
+- Serums not changed (As Rare)
+- Slaves not changed (Lag)
+- Animals not changed (Lag)
+

@@ -4,6 +4,7 @@ A mod that improves how much stock and silver traders have without breaking bala
 [h1]What this mod Changes[/h1]
 [b]All Traders[/b]
 - Increased resource stock amount by x2
+- Clothes, buildings, implants, artifacts, armour and weapons are only increased slightly to preserve balance and not clog up trader menu lists.
 - Rare and unique items are unchanged to preserve balance
 - Animals / slaves unchanged to prevent lag / overcrowding
 - Visited Settlement traders of all factions will buy more item types from you
